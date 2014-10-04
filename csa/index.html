@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>CSA</title>
+	<script type="text/javascript" src="js/lib/angular.js"></script>
+	<script type="text/javascript" src="js/lib/modules/angular-animate.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/icon.css">
+	<link rel="stylesheet" type="text/css" href="js/lib/modules/ng-animation.css">
+	<link rel="shortcut icon" href="img/X32.png">
+</head>
+<body ng-app="CSA">
+	<header>
+		<nav>
+			<img src="img/X32.png">
+			<h1></h1>
+			<a id="icon" href="#"><span class="tools"></span></a>
+			<a id="icon" href="#"><span class="cloud"></span></a>
+			<a id="icon" href="#"><span class="download"></span></a>
+			<a id="icon" href="#"><span class="histogram"></span></a>
+		</nav>
+		<div id="tab">
+			<a href="#customers">Customers</a>
+			<a href="#orders">Orders</a>
+			<a href="#stock">Stock</a>
+		</div>
+		<form>
+			<input type="search" ng-model="searchText">
+		</form>
+	</header>
+	<div id="main">
+		<DIV ng-controller="CustomerController">
+			<article  class="toggle" ng-repeat="customer in customers | filter:searchText">
+				<div class="container" style="background-color: #3f3e3d; color:#FFFFFF;">
+					<span style="color:#FFFFFF;">{{ customer.first_name + " " + customer.last_name}}</span>
+					<a id="icon" href="#"><span class="close"></span></a>
+					<a id="icon" href="#"><span class="pencil"></span></a>
+					<a id="icon" href="#"><span class="newspaper"></span></a>
+				</div>
+				<ul class="container" style="background-color: #d2d2d2">
+					<li>Company: {{ customer.company }}</li>
+					<li>Gender: {{ customer.gender }}</li>
+					<li>Date of Birth: {{ customer.date_of_birth }}</li>
+					<li>Email: {{ customer.email }}</li>
+					<li>Join Date: {{ customer.join_date }}</li>
+				</ul>
+			</article>
+		</DIV>
+		
+	</div>
+	<footer></footer>
+</body>
+</html>

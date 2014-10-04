@@ -1,0 +1,52 @@
+/*mobile version*/
+.responsive-table {
+  margin: 1em 0;
+  min-width: 300px;
+  background: #fff;
+  color: #3f3e3d;
+  overflow: hidden;
+}
+.responsive-table td {
+  display: block;
+}
+.responsive-table td:first-child {
+  padding-top: .5em;
+}
+.responsive-table td:last-child {
+  padding-bottom: .5em;
+}
+.responsive-table th {
+  display: none;
+}
+.responsive-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+.responsive-table th, .responsive-table td {
+  text-align: left;
+}
+
+/*web version*/
+@media (min-width: 40em) {
+
+  .responsive-table td:before {
+    display: none;
+  }
+  .responsive-table th, .responsive-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .responsive-table th:first-child, .responsive-table td:first-child {
+    padding-left: 0;
+  }
+  .responsive-table th:last-child, .responsive-table td:last-child {
+    padding-right: 0;
+  }
+  .responsive-table th, .responsive-table td {
+    padding: 1em !important;
+  }
+
+}
+
