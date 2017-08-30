@@ -12,9 +12,9 @@ elixir(function(mix) {
         ])
         .browserSync({
             server: {
-                baseDir: '..'
+                baseDir: 'public'
             },
             proxy: null,
-            files: ['../**/*']
+            files: ['public/**/*']
         });
 });
