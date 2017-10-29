@@ -11,7 +11,7 @@
         <li class="linkedin"><i class="fa fa-linkedin"></i><a href="<?php echo e('https://'.$linkedIn); ?>" target="_blank"><?php echo e($linkedIn); ?></a></li>
         <li class="github"><i class="fa fa-github"></i><a href="<?php echo e('https://'.$github); ?>" target="_blank"><?php echo e($github); ?></a></li>
         <li class="twitter"><i class="fa fa-twitter"></i><a href="<?php echo e('https://twitter.com/'.$twitter); ?>" target="_blank"><?php echo e('@'.$twitter); ?></a></li>
-        <li class="youtube"><i class="fa fa-youtube"></i><a href="<?php echo e('https://youtube.com/'.$youtube); ?>" target="_blank"><?php echo e($youtube); ?> (300K Views)</a></li>
+        <li class="youtube"><i class="fa fa-youtube"></i><a href="<?php echo e('https://youtube.com/'.$youtube); ?>" target="_blank"><?php echo e($youtube); ?> (+300K Views)</a></li>
     </ul>
 </div>
 <div class="education-container container-block">
