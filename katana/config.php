@@ -75,7 +75,7 @@ return [
     'projects' => [
         ['title' => 'MVC Wrapper', 'description' => "It's a simple MVC wrapper for PHP using PSR-0 standard. All the MVC structure is done, you just need to create your models, views and controllers.", 'job' => 'Backend Developer', 'period' => 'August 2014 – September 2014', 'url' => "https://github.com/sayfessyd/MVC-wrapper"],
         ['title' => 'Pharma', 'description' => "Pharma is a web application that allows the stock management of a pharmacy. Technologies : Laravel 4.2 - AngularJS 1.2 - jQuery 2.1 - Font Awesome 4.2", 'job' => 'Frontend / Backend Developer', 'period' => 'November 2014 – January 2015', 'url' => "https://github.com/sayfessyd/pharma"],
-        ['title' => 'loadwave', 'description' => "It’s a kind of video sharing website based on youtube that implements timed comments. Technologies : PHP5 (PSR-4 standard) - AngularJS 1.3 - jQuery 2.1 - Zurb Foundation 5 - Font Awesome 4.3", 'job' => 'Frontend / Backend Developer', 'period' => 'February 2015 – April 2015', 'url' => "https://www.youtube.com/watch?v=BWq4d65fdmw"],
+        ['title' => 'loadwave', 'description' => "It’s a kind of video sharing website based on youtube that implements timed comments. Technologies : PHP5 (PSR-4 standard) - AngularJS 1.3 - jQuery 2.1 - Zurb Foundation 5 - Font Awesome 4.3", 'job' => 'Frontend / Backend Developer', 'period' => 'February 2015 – April 2015', 'url' => "https://github.com/sayfessyd/loadwave"],
         ['title' => 'Effectshop', 'description' => "Effectshop is the perfect image editing app for quick and straight forward editing. Technologies : Cordova 4 - AngularJS 1.4 - jQuery 2.1 - Font Awesome 4.4", 'job' => 'Frontend Developer', 'period' => 'July 2015 – September 2015', 'url' => "https://play.google.com/store/apps/details?id=net.specialapp.effectshop"],
         ['title' => 'Lollipop (Premium Software / jQuery plugin)', 'description' => "Lollipop is the perfect image editing HTML5 app for quick and straight forward editing. Technologies : HTML5 - CSS3 - JavaScript (ES5)", 'job' => 'Frontend Developer', 'period' => 'September 2015 – October 2015', 'url' => "https://codecanyon.net/item/lollipop-image-editor/12957420"],
         ['title' => 'DAO and Service layer', 'description' => "It's a simple DAO and Service layer for JEE Platform. All structure is done, you just need to create your models, services and daos.", 'job' => 'Backend Developer', 'period' => 'November 2015 – Decembre 2015', 'url' => "https://github.com/sayfessyd/DAO-and-Service-layer"],
@@ -104,7 +104,7 @@ return [
         ['title' => 'PHP7 & Laravel 5.x', 'level' => '80%'],
         ['title' => 'ES2015 & Vue.js 2.x & Nuxt.js', 'level' => '80%'],
         ['title' => 'Yarn & Gulp & Webpack', 'level' => '70%'],
-        ['title' => 'Jade (Pug) & Stylus & Sass', 'level' => '70%'],
+        ['title' => 'Pug (Jade) & Stylus & Sass', 'level' => '70%'],
         ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '80%'],
         ['title' => 'ES5 & jQuery (+Mobile) & AngularJS 1.x', 'level' => '90%'],
         ['title' => 'Spring & Hibernate & JSF 2.0', 'level' => '70%'],
