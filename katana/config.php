@@ -103,8 +103,9 @@ return [
     ],
 
     'skills' => [
-        ['title' => 'PHP7 & Laravel 5.x', 'level' => '80%'],
+        ['title' => 'PHP7 & Laravel 5.x', 'level' => '90%'],
         ['title' => 'ES2015 & Vue.js 2.x & Nuxt.js', 'level' => '80%'],
+        ['title' => 'Express.js & Socket.io', 'level' => '70%'],
         ['title' => 'Yarn & Gulp & Webpack', 'level' => '70%'],
         ['title' => 'Pug (Jade) & Stylus & Sass', 'level' => '70%'],
         ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '80%'],
