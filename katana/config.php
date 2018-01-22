@@ -111,7 +111,7 @@ return [
         ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '80%'],
         ['title' => 'ES5 & jQuery (+Mobile) & AngularJS 1.x', 'level' => '90%'],
         ['title' => 'Spring & Hibernate & JSF 2.0', 'level' => '70%'],
-        ['title' => 'Bootstrap & Foundation & PrimeFaces', 'level' => '70%'],
+        ['title' => 'Bootstrap & Foundation & PrimeFaces & Bulma & Tailwind', 'level' => '70%'],
         ['title' => 'Apache Cordova 4.x', 'level' => '70%'],
         ['title' => 'Adobe Photoshop & After Effects CS6', 'level' => '60%'],
         ['title' => 'Ableton Live & Kontakt', 'level' => '60%']
