@@ -23,7 +23,7 @@
     </div>
     <footer class="footer">
         <div class="text-center">
-            <small class="copyright">© Sayf Essyd 2017</small>
+            <small class="copyright">© Sayf Essyd <script>document.write(new Date().getFullYear())</script></small>
         </div>
     </footer>
     <script type="text/javascript" src="@url('assets/plugins/jquery-1.11.3.min.js')"></script>
