@@ -105,16 +105,16 @@ return [
     'skills' => [
         ['title' => 'PHP7 & Laravel 5.x', 'level' => '90%'],
         ['title' => 'ES2015 & Vue.js 2.x & Nuxt.js', 'level' => '80%'],
-        ['title' => 'Express.js & Socket.io', 'level' => '70%'],
+        ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '80%'],
+        ['title' => 'Express.js 4.x & Socket.io 2.0', 'level' => '70%'],
         ['title' => 'Yarn & Gulp & Webpack', 'level' => '70%'],
         ['title' => 'Pug (Jade) & Stylus & Sass', 'level' => '70%'],
-        ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '80%'],
+        ['title' => 'Spring MVC & Spring Security & Hibernate & JSF 2.0', 'level' => '70%'],
+        ['title' => 'Bootstrap 4 & Foundation 5 & PrimeFaces 5 & Bulma 0.x & TailwindCSS 0.x', 'level' => '70%'],
         ['title' => 'ES5 & jQuery (+Mobile) & AngularJS 1.x', 'level' => '90%'],
-        ['title' => 'Spring & Hibernate & JSF 2.0', 'level' => '70%'],
-        ['title' => 'Bootstrap 4 & Foundation 5 & PrimeFaces & Bulma 0.5 & TailwindCSS 0.4', 'level' => '70%'],
-        ['title' => 'Apache Cordova 4.x', 'level' => '70%'],
-        ['title' => 'Adobe Photoshop & After Effects CS6', 'level' => '60%'],
-        ['title' => 'Ableton Live 9.x & Kontakt 5.x', 'level' => '60%']
+        ['title' => 'Apache Cordova 5.x', 'level' => '70%'],
+        ['title' => 'Ableton Live 9.x & Kontakt 5.x', 'level' => '70%'],
+        ['title' => 'Adobe Photoshop & After Effects CS6', 'level' => '60%']
     ]
 
 
