@@ -29,7 +29,7 @@
             </div>
         </section>
         <section class="section experiences-section">
-            <h2 class="section-title"><i class="fa fa-briefcase"></i>Organisations</h2>
+            <h2 class="section-title"><i class="fa fa-circle-thin"></i>Organisations</h2>
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
