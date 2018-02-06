@@ -106,7 +106,7 @@ return [
     ],
 
     'skills' => [
-        ['title' => 'PHP7 & Laravel 5.x & Lumen 5.x', 'level' => '90%'],
+        ['title' => 'PHP7 & Laravel 5.x &    Lumen 5.x', 'level' => '90%'],
         ['title' => 'ES2015 & Vue.js 2.x & Nuxt.js 1.x', 'level' => '80%'],
         ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '70%'],
         ['title' => 'Bootstrap 4 & Foundation 5 & PrimeFaces 5 & Bulma 0.x & TailwindCSS 0.x', 'level' => '70%'],
