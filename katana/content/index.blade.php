@@ -47,8 +47,19 @@
             </div>
         </section>
         <section class="section projects-section">
-            <h2 class="section-title"><i class="fa fa-archive"></i>Projects {{count($projects)}}</h2>
-            @foreach ($projects as $project)
+            <h2 class="section-title"><i class="fa fa-archive"></i>Projects ² {{count($projects_A)}}</h2>
+            @foreach ($projects_A as $project)
+                <div class="item">
+                    <div class="upper-row">
+                        <h3 class="job-title">{{$project['job']}}</h3>
+                        <div class="time">{{$project['period']}}</div>
+                    </div>
+                    <span class="project-title"><a href="{{$project['url']}}" target="_blank">{{$project['title']}}</a></span>
+                    <span class="project-tagline">{{$project['description']}}</span>
+                </div>
+            @endforeach
+            <h2 class="section-title"><i class="fa fa-archive"></i>Projects {{count($projects_B)}}</h2>
+            @foreach ($projects_B as $project)
                 <div class="item">
                     <div class="upper-row">
                         <h3 class="job-title">{{$project['job']}}</h3>
