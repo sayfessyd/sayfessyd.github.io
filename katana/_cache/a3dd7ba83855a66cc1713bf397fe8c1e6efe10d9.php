@@ -45,8 +45,19 @@
             </div>
         </section>
         <section class="section projects-section">
-            <h2 class="section-title"><i class="fa fa-archive"></i>Projects <?php echo e(count($projects)); ?></h2>
-            <?php foreach($projects as $project): ?>
+            <h2 class="section-title"><i class="fa fa-archive"></i>Projects ² <?php echo e(count($projects_A)); ?></h2>
+            <?php foreach($projects_A as $project): ?>
+                <div class="item">
+                    <div class="upper-row">
+                        <h3 class="job-title"><?php echo e($project['job']); ?></h3>
+                        <div class="time"><?php echo e($project['period']); ?></div>
+                    </div>
+                    <span class="project-title"><a href="<?php echo e($project['url']); ?>" target="_blank"><?php echo e($project['title']); ?></a></span>
+                    <span class="project-tagline"><?php echo e($project['description']); ?></span>
+                </div>
+            <?php endforeach; ?>
+            <h2 class="section-title"><i class="fa fa-archive"></i>Projects <?php echo e(count($projects_B)); ?></h2>
+            <?php foreach($projects_B as $project): ?>
                 <div class="item">
                     <div class="upper-row">
                         <h3 class="job-title"><?php echo e($project['job']); ?></h3>
