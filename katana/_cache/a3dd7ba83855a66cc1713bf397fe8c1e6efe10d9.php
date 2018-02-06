@@ -56,6 +56,8 @@
                     <span class="project-tagline"><?php echo e($project['description']); ?></span>
                 </div>
             <?php endforeach; ?>
+        </section>
+        <section class="section projects-section">
             <h2 class="section-title"><i class="fa fa-archive"></i>Projects <?php echo e(count($projects_B)); ?></h2>
             <?php foreach($projects_B as $project): ?>
                 <div class="item">

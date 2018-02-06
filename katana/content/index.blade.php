@@ -58,6 +58,8 @@
                     <span class="project-tagline">{{$project['description']}}</span>
                 </div>
             @endforeach
+        </section>
+        <section class="section projects-section">
             <h2 class="section-title"><i class="fa fa-archive"></i>Projects {{count($projects_B)}}</h2>
             @foreach ($projects_B as $project)
                 <div class="item">
