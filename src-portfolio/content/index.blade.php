@@ -222,7 +222,7 @@
     <section id="contact-section" class="contact-section section">
         <h2 class="section-title">Get in Touch</h2>
         <div class="intro">
-            <img class="profile-image cs-profile" src="{{$profile}}" alt="">
+            <img class="profile-image cs-profile" src="@url('assets/images/profile/profile.jpg')" alt="">
             <div class="dialog">
             <p>{{$contact}}</p>
                 <p><strong>I can help with the following:</strong></p>
