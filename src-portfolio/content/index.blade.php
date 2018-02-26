@@ -5,7 +5,7 @@
 @stop
 
 @section('body')
-<section id="portfolio-section" class="portfolio-section section">
+    <section id="portfolio-section" class="portfolio-section section">
         <h2 class="section-title">Portfolio</h2>
         <ul id="filters" class="filters clearfix">
             <li class="type active" data-filter="*">All</li>
@@ -44,7 +44,6 @@
                 </div><!--//item-->
             @endforeach
         </div><!--//item-wrapper-->
-        
     </section><!--//section-->
 
     <section id="skills-section" class="skills-section section text-center">
@@ -82,7 +81,6 @@
                 @endforeach
             </div><!--//row-->
         </div><!--//top-skills-->
-        
         <div class="other-skills">
             <h3 class="subtitle">Other Skills</h3>
             <div class="misc-skills">
@@ -91,10 +89,7 @@
                 @endforeach
             </div>
         </div><!--//other-skills-->
-        
     </section><!--//skills-section-->
-
-    
 
     <section id="experiences-section" class="experiences-section section">
         <h2 class="section-title">Experiences</h2>
@@ -143,7 +138,7 @@
             @endforeach
         </div><!--//timeline-->
     </section><!--//section-->
-    
+        
     <section id="education-section" class="education-section section">
         <h2 class="section-title">Education</h2>
         <div class="row">
@@ -163,8 +158,7 @@
             @endforeach
         </div><!--//row-->
     </section><!--//section-->
-    
-    
+        
     {{--  <section id="testimonials-section" class="testimonials-section section">
         <h2 class="section-title">Testimonials</h2>
         
@@ -188,7 +182,7 @@
                         <div class="name">Rob Olson</div>
                         <div class="position">Product Manager, Apple</div>
                     </div><!--//source-->   
-                                                   
+                                                    
                 </div><!--//item-->
                 <div class="item carousel-item">
                     <blockquote class="quote">
@@ -200,7 +194,7 @@
                         <div class="name">Christina Jensen</div>
                         <div class="position">Senior Developer, Twitter</div>
                     </div><!--//source-->   
-           
+            
                 </div><!--//item-->
                 <div class="item carousel-item">
                     <blockquote class="quote">
@@ -217,7 +211,6 @@
         </div><!--//testimonials-carousel-->
         
     </section><!--//section-->  --}}
-    
 
     <section id="contact-section" class="contact-section section">
         <h2 class="section-title">Get in Touch</h2>
@@ -233,7 +226,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> UI development</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> UX prototyping</li>
                 </ul>
-                <p>Drop me a line at <a href="{{'mailto: '.$email}}">{{$email}}</a> or call me from whatsapp.</p>
+                <p>Drop me a line at <a href="{{'mailto:'.$email}}">{{$email}}</a> or call me from whatsapp.</p>
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="{{'https://'.$linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="{{'https://twitter.com/'.$twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -243,6 +236,5 @@
                     </ul><!--//social-->
             </div><!--//diaplog-->
         </div><!--//intro-->
-
     </section><!--//section-->
 @stop

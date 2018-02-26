@@ -61,7 +61,6 @@ return [
      */
 
     'siteName' => 'sayfessyd',
-
     'siteDescription' => 'Yet another awesome site.',
 
     'name' => 'Sayf Essyd',
@@ -83,7 +82,7 @@ return [
     ],
 
     'organisations' => [
-        ['title' => 'IEEE Member', 'time' => "December 2016 - Present", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'annexe' => 'Certificate of Participation - IEEEXtreme 11.0 - Saifeddine Essid.pdf', 'location'=>'Ariana'],
+        ['title' => 'IEEE Member', 'time' => "December 2016 - Present", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'annexe' => 'Certificate%20of%20Participation%20-%20IEEEXtreme%2011.0%20-%20Saifeddine%20Essid.pdf', 'location'=>'Ariana'],
     ],
 
     'projects_A' => [

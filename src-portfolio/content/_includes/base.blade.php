@@ -3,22 +3,22 @@
 <head>
     <title>{{$siteName}} - @yield('pageTitle')</title>
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="@yield('pageDescription', $siteDescription)">
-    <meta name="author" content="@yield('pageAuthor', $name)">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@yield('pageDescription', $siteDescription)" />
+    <meta name="author" content="@yield('pageAuthor', $name)" />    
+    <link rel="shortcut icon" href="favicon.ico" />  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
     <!-- Global CSS -->
-    <link rel="stylesheet" href="@url('assets/plugins/bootstrap/css/bootstrap.min.css')">   
+    <link rel="stylesheet" href="@url('assets/plugins/bootstrap/css/bootstrap.min.css')" />   
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="@url('assets/css/emojione.min.css')" />
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="@url('assets/css/styles-11.css')">
+    <link id="theme-style" rel="stylesheet" href="@url('assets/css/styles-11.css')" />
     <!-- Custom CSS -->  
-    <link id="custom-style" rel="stylesheet" href="@url('assets/css/custom.css')">
+    <link id="custom-style" rel="stylesheet" href="@url('assets/css/custom.css')" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -31,7 +31,7 @@
     <header class="header">
         <div class="top-bar container-fluid">
             <div class="actions">
-                <a class="btn d-none d-md-inline-block" href="{{'mailto: '.$email}}"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
+                <a class="btn d-none d-md-inline-block" href="{{'mailto:'.$email}}"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
                 <a class="btn" href="/resume" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> View My Resume</a>
                 <a class="btn" href="files/CV-Europass-20180211-Essid-FR.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Cv Europass Version</a>
             </div><!--//actions-->
@@ -43,7 +43,6 @@
                 <li class="list-inline-item"><a href="{{'http://'.$website}}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
             </ul><!--//social-->
         </div><!--//top-bar-->
-        
         <div class="intro">
             <div class="container text-center">
                 <img class="profile-image img-thumbnail cs-profile" src="{{$profile}}" alt="">
@@ -54,17 +53,15 @@
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->
-        
         <div class="contact-info">
             <div class="container text-center">
                 <ul class="list-inline">
-                    <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="{{'mailto: '.$email}}">{{$email}}</a></li>
+                    <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="{{'mailto:'.$email}}">{{$email}}</a></li>
                     <li class="list-inline-item"><i class="fa fa-whatsapp"></i><a href="#">{{$tel}}</a></li>
                     <li class="website list-inline-item"><i class="fa fa-globe"></i><a href="{{'http://'.$website}}" target="_blank">{{$website}}</a></li>
                 </ul>
             </div><!--//container-->
         </div><!--//contact-info-->
-        
         <div class="page-nav-space-holder d-none d-md-block">
             <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
                 <div class="container">
@@ -93,17 +90,16 @@
     </footer>
 
     <!-- Javascript -->          
-    <script type="text/javascript" src="@url('assets/plugins/jquery-3.2.1.min.js')"></script>
-    <script type="text/javascript" src="@url('assets/plugins/popper.min.js')"></script> 
-    <script type="text/javascript" src="@url('assets/plugins/bootstrap/js/bootstrap.min.js')"></script>  
-    <script type="text/javascript" src="@url('assets/plugins/back-to-top.js')"></script>
-    <script type="text/javascript" src="@url('assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js')"></script> 
-    <script type="text/javascript" src="@url('assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js')"></script>
-    <script type="text/javascript" src="@url('assets/plugins/imagesloaded.pkgd.min.js')"></script> 
-    <script type="text/javascript" src="@url('assets/plugins/isotope.pkgd.min.js')"></script>  
-
+    <script src="@url('assets/plugins/jquery-3.2.1.min.js')"></script>
+    <script src="@url('assets/plugins/popper.min.js')"></script> 
+    <script src="@url('assets/plugins/bootstrap/js/bootstrap.min.js')"></script>  
+    <script src="@url('assets/plugins/back-to-top.js')"></script>
+    <script src="@url('assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js')"></script> 
+    <script src="@url('assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js')"></script>
+    <script src="@url('assets/plugins/imagesloaded.pkgd.min.js')"></script> 
+    <script src="@url('assets/plugins/isotope.pkgd.min.js')"></script>  
     <!-- custom js -->
-    <script type="text/javascript" src="@url('assets/js/main.js')"></script>
+    <script src="@url('assets/js/main.js')"></script>
 
 </body>
 </html> 

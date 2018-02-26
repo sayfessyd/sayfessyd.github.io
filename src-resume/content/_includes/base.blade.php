@@ -27,9 +27,9 @@
             <a class="btn" href="javascript:pdfVersion()"><i class="fa fa-download" aria-hidden="true"></i> PDF Version</a>
         </div>
     </footer>
-    <script type="text/javascript" src="@url('resume/assets/plugins/jquery-1.11.3.min.js')"></script>
-    <script type="text/javascript" src="@url('resume/assets/plugins/bootstrap/js/bootstrap.min.js')"></script>
-    <script type="text/javascript" src="@url('resume/assets/plugins/html2pdf.bundle.min.js')"></script>
-    <script type="text/javascript" src="@url('resume/assets/js/main.js')"></script>
+    <script src="@url('resume/assets/plugins/jquery-1.11.3.min.js')"></script>
+    <script src="@url('resume/assets/plugins/bootstrap/js/bootstrap.min.js')"></script>
+    <script src="@url('resume/assets/plugins/html2pdf.bundle.min.js')"></script>
+    <script src="@url('resume/assets/js/main.js')"></script>
 </body>
 </html>
