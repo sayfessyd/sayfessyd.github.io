@@ -6,7 +6,7 @@
 </div>
 <div class="contact-container container-block">
     <ul class="list-unstyled contact-list">
-        <li class="email"><i class="fa fa-envelope"></i><a href="{{'mailto: '.$email}}">{{$email}}</a></li>
+        <li class="email"><i class="fa fa-envelope"></i><a href="{{'mailto:'.$email}}">{{$email}}</a></li>
         <li class="website"><i class="fa fa-globe"></i><a href="{{'http://'.$website}}" target="_blank">{{$website}}</a></li>
         <li class="linkedin"><i class="fa fa-linkedin"></i><a href="{{'https://'.$linkedIn}}" target="_blank">{{$linkedIn}}</a></li>
         <li class="github"><i class="fa fa-github"></i><a href="{{'https://'.$github}}" target="_blank">{{$github}}</a></li>
