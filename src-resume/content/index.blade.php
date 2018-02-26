@@ -16,7 +16,7 @@
                     <li><img class="emojione" alt="💎" src="//cdn.jsdelivr.net/emojione/assets/png/1f48e.png?v=2.2.6"> Full Stack Developer,  Creator of Lollipop image editor</li>
                     <li><img class="emojione" alt="🖥" src="//cdn.jsdelivr.net/emojione/assets/png/1f5a5.png?v=2.2.6"> UI Designer</li>
                     <li><img class="emojione" alt="🎓" src="//cdn.jsdelivr.net/emojione/assets/png/1f393.png?v=2.2.6"> Student at the Higher Institute of Computer Science (Engineer's degree)</li>
-                    <li><img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"> Pianist and Composer in my spare time <img class="emojione" alt="😋" src="//cdn.jsdelivr.net/emojione/assets/png/1f60b.png?v=2.2.6"></li></ul>
+                    <li><img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"> Pianist and Composer in my spare time</li></ul>
             </div>
         </section>
         <section class="section experiences-section">
@@ -81,8 +81,17 @@
                 </div>
             @endforeach
         </section>
+        <?php 
+            $sum = 0;
+            foreach ($top_skills as $skill) {
+                $sum += $skill['count'];
+            } 
+            foreach ($skills as $skill) {
+                $sum += $skill['count'];
+            } 
+        ?>
         <section id="skills-section" class="skills-section section">
-            <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency {{$sum}}</h2>
             <div class="skillset">
                 @foreach ($top_skills as $skill)
                     <div class="item">

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="@yield('pageDescription', $siteDescription)" />
     <meta name="author" content="@yield('pageAuthor', $name)" />    
-    <link rel="shortcut icon" href="favicon.ico" />  
+    <link rel="shortcut icon" href="/favicon.ico" />  
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
     <!-- Global CSS -->
     <link rel="stylesheet" href="@url('assets/plugins/bootstrap/css/bootstrap.min.css')" />   
@@ -32,13 +32,13 @@
         <div class="top-bar container-fluid">
             <div class="actions">
                 <a class="btn d-none d-md-inline-block" href="{{'mailto:'.$email}}"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
-                <a class="btn" href="/resume" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> View My Resume</a>
+                <a class="btn" href="/resume/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> View My Resume</a>
                 <a class="btn" href="files/CV-Europass-20180211-Essid-FR.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Cv Europass Version</a>
             </div><!--//actions-->
             <ul class="social list-inline">
-                <li class="list-inline-item"><a href="{{'https://'.$linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="{{'https://www.'.$linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 <li class="list-inline-item"><a href="{{'https://twitter.com/'.$twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li class="list-inline-item"><a href="{{'https://youtube.com/'.$youtube}}"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="{{'https://www.youtube.com/'.$youtube}}"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                 <li class="list-inline-item"><a href="{{'https://'.$github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
                 <li class="list-inline-item"><a href="{{'http://'.$website}}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
             </ul><!--//social-->
@@ -49,7 +49,7 @@
                 <h1 class="name">{{$name}}</h1>
                 <div class="title">Full Stack Developer</div>
                 <div class="profile">
-                    <p>Creator of Lollipop - Image Editor <img class="emojione" alt="🍭" src="//cdn.jsdelivr.net/emojione/assets/png/1f36d.png?v=2.2.6"> Student at the HI of Computer Science (Engineer's degree) <img class="emojione" alt="🎓" src="//cdn.jsdelivr.net/emojione/assets/png/1f393.png?v=2.2.6"> Pianist and Composer in my spare time ! <img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"> <img class="emojione" alt="😋" src="//cdn.jsdelivr.net/emojione/assets/png/1f60b.png?v=2.2.6"></p>
+                    <p>Creator of Lollipop - Image Editor <img class="emojione" alt="🍭" src="//cdn.jsdelivr.net/emojione/assets/png/1f36d.png?v=2.2.6"> Student at the HI of Computer Science (Engineer's degree) <img class="emojione" alt="🎓" src="//cdn.jsdelivr.net/emojione/assets/png/1f393.png?v=2.2.6"> Pianist and Composer in my spare time ! <img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"></p>
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->

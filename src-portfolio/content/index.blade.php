@@ -47,9 +47,18 @@
     </section><!--//section-->
 
     <section id="skills-section" class="skills-section section text-center">
+        <?php 
+            $sum = 0;
+            foreach ($top_skills as $skill) {
+                $sum += $skill['count'];
+            } 
+            foreach ($skills as $skill) {
+                $sum += $skill['count'];
+            } 
+        ?>
         <h2 class="section-title">Professional Skills</h2>
         <div class="top-skills">
-            <h3 class="subtitle">Top Skills</h3>
+        <h3 class="subtitle">Top Skills {{ $sum }}</h3>
             <div class="row">
                 @foreach($top_skills as $skill)
                         <div class="item col-12 col-md-4">
@@ -82,7 +91,7 @@
             </div><!--//row-->
         </div><!--//top-skills-->
         <div class="other-skills">
-            <h3 class="subtitle">Other Skills</h3>
+        <h3 class="subtitle">Other Skills {{count($other_skills)}}</h3>
             <div class="misc-skills">
                 @foreach($other_skills as $skill)
                     <span class="skill-tag">{{$skill}}</span>
@@ -209,7 +218,6 @@
                 
             </div><!--//carousel-inner-->
         </div><!--//testimonials-carousel-->
-        
     </section><!--//section-->  --}}
 
     <section id="contact-section" class="contact-section section">
@@ -228,9 +236,9 @@
                 </ul>
                 <p>Drop me a line at <a href="{{'mailto:'.$email}}">{{$email}}</a> or call me from whatsapp.</p>
                 <ul class="social list-inline">
-                    <li class="list-inline-item"><a href="{{'https://'.$linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="{{'https://www.'.$linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="{{'https://twitter.com/'.$twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="{{'https://youtube.com/'.$youtube}}"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="{{'https://www.youtube.com/'.$youtube}}"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="{{'https://'.$github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="{{'http://'.$website}}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
                     </ul><!--//social-->
