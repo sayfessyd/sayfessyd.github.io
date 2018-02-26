@@ -1,5 +1,5 @@
 ## sayfessyd.com
-Built with Katana (Blade Syntax) 
+
 ### W3C Nu Html Checker
 ![Screenshot](https://raw.githubusercontent.com/sayfessyd/sayfessyd.github.io/master/Nu_Html_Checker.png)
 
