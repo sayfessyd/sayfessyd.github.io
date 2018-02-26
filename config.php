@@ -75,8 +75,6 @@ return [
     'contact' => "Hi! I'm Saifeddine Essid, find me as @sayfessyd on twitter and github. I'm currently working as a freelance on weekdays and practice piano on weekends. ",
     'tel' => "sayfessyd",
 
-    'profile' => "assets/images/profile/profile.jpg",
-
     'experiences' => [
         ['title' => 'Full Stack Developer', 'time' => "February 2016 - May 2016", 'company' => 'BNA Bank', 'details' => 'Develop a Java EE web application that allows the management of promissory notes.', 'annexe' => 'https://github.com/sayfessyd/promissory-notes-manager', 'location'=>'Tunis'],
     ],

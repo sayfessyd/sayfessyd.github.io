@@ -5,6 +5,7 @@
 @stop
 
 @section('body')
+
     <section id="portfolio-section" class="portfolio-section section">
         <h2 class="section-title">Portfolio</h2>
         <ul id="filters" class="filters clearfix">
@@ -14,7 +15,7 @@
         </ul><!--//filters-->
         <div class="items-wrapper isotope row">
             @foreach($projects_A as $project)
-                <div class="item {{$project['type']}} col-lg-3 col-6">
+                <article class="item {{$project['type']}} col-lg-3 col-6">
                     <div class="item-inner">
                         <figure class="figure">
                             <img class="img-fluid" src="assets/images/portfolio/{{$project['image']}}" alt="" />
@@ -26,10 +27,10 @@
                         </div><!--//content-->    
                         <a class="link-mask" href="{{$project['url']}}"></a>              
                     </div><!--//item-inner-->
-                </div><!--//item-->
+                </article><!--//item-->
             @endforeach
             @foreach($projects_B as $project)
-                <div class="item {{$project['type']}} col-lg-3 col-6">
+                <article class="item {{$project['type']}} col-lg-3 col-6">
                     <div class="item-inner">
                         <figure class="figure">
                             <img class="img-fluid" src="assets/images/portfolio/{{$project['image']}}" alt="" />
@@ -41,21 +42,19 @@
                         </div><!--//content-->    
                         <a class="link-mask" href="{{$project['url']}}"></a>              
                     </div><!--//item-inner-->
-                </div><!--//item-->
+                </article><!--//item-->
             @endforeach
         </div><!--//item-wrapper-->
     </section><!--//section-->
 
+    @php 
+        $sum = 0;
+        foreach ($top_skills as $skill)
+            $sum += $skill['count'];
+        foreach ($skills as $skill)
+            $sum += $skill['count'];
+    @endphp
     <section id="skills-section" class="skills-section section text-center">
-        <?php 
-            $sum = 0;
-            foreach ($top_skills as $skill) {
-                $sum += $skill['count'];
-            } 
-            foreach ($skills as $skill) {
-                $sum += $skill['count'];
-            } 
-        ?>
         <h2 class="section-title">Professional Skills</h2>
         <div class="top-skills">
         <h3 class="subtitle">Top Skills {{ $sum }}</h3>
@@ -245,4 +244,5 @@
             </div><!--//diaplog-->
         </div><!--//intro-->
     </section><!--//section-->
+    
 @stop

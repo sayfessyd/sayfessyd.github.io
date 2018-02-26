@@ -5,10 +5,10 @@
 @stop
 
 @section('body')
-    <div class="sidebar-wrapper">
+    <aside class="sidebar-wrapper">
         @include('_includes.sidebar')
-    </div>
-    <div class="main-wrapper">
+    </aside>
+    <main class="main-wrapper">
         <section class="section summary-section">
             <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
             <div class="summary">
@@ -81,15 +81,13 @@
                 </div>
             @endforeach
         </section>
-        <?php 
+        @php 
             $sum = 0;
-            foreach ($top_skills as $skill) {
+            foreach ($top_skills as $skill)
                 $sum += $skill['count'];
-            } 
-            foreach ($skills as $skill) {
+            foreach ($skills as $skill)
                 $sum += $skill['count'];
-            } 
-        ?>
+        @endphp
         <section id="skills-section" class="skills-section section">
         <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency {{$sum}}</h2>
             <div class="skillset">
@@ -113,6 +111,6 @@
                 @endforeach
             </div>
         </section>
-    </div>
+    </main>
 
 @stop

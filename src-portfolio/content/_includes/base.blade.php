@@ -45,7 +45,7 @@
         </div><!--//top-bar-->
         <div class="intro">
             <div class="container text-center">
-                <img class="profile-image img-thumbnail cs-profile" src="{{$profile}}" alt="">
+                <img class="profile-image img-thumbnail cs-profile" src="@url('assets/images/profile/profile.jpg')" alt="">
                 <h1 class="name">{{$name}}</h1>
                 <div class="title">Full Stack Developer</div>
                 <div class="profile">
@@ -79,9 +79,9 @@
         </div>
     </header><!--//header-->
     
-    <div class="wrapper container">
+    <main class="wrapper container">
         @yield('body')
-    </div>
+    </main>
     
     <footer class="footer text-center">
         <div class="container">
