@@ -13,17 +13,16 @@
             <li class="type" data-filter=".backend">Back-end</li>
             <li class="type" data-filter=".frontend">Front-end</li>
         </ul><!--//filters-->
-        <div class="items-wrapper isotope row">
+        <div class="items-wrapper isotope row col-eq">
             @foreach($projects_A as $project)
                 <article class="item {{$project['type']}} col-lg-3 col-6">
-                    <div class="item-inner">
+                    <div class="item-inner"  style="height: 380px">
                         <figure class="figure">
                             <img class="img-fluid" src="assets/images/portfolio/{{$project['image']}}" alt="" />
                         </figure>
                         <div class="content text-left">
                             <h3 class="sub-title"><a href="#">{{$project['title']}}</a></h3>
                             <div class="meta">{{$project['description']}}</div>
-                            <div class="action"><a href="{{$project['url']}}">View Project</a></div>
                         </div><!--//content-->    
                         <a class="link-mask" href="{{$project['url']}}"></a>              
                     </div><!--//item-inner-->
@@ -31,14 +30,13 @@
             @endforeach
             @foreach($projects_B as $project)
                 <article class="item {{$project['type']}} col-lg-3 col-6">
-                    <div class="item-inner">
+                    <div class="item-inner" style="height: 380px">
                         <figure class="figure">
                             <img class="img-fluid" src="assets/images/portfolio/{{$project['image']}}" alt="" />
                         </figure>
                         <div class="content text-left">
                             <h3 class="sub-title"><a href="#">{{$project['title']}}</a></h3>
                             <div class="meta">{{$project['description']}}</div>
-                            <div class="action"><a href="{{$project['url']}}">View Project</a></div>
                         </div><!--//content-->    
                         <a class="link-mask" href="{{$project['url']}}"></a>              
                     </div><!--//item-inner-->

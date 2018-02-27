@@ -92,7 +92,7 @@
     <!-- Javascript -->          
     <script src="@url('assets/plugins/jquery-3.2.1.min.js')"></script>
     <script src="@url('assets/plugins/popper.min.js')"></script> 
-    <script src="@url('assets/plugins/bootstrap/js/bootstrap.min.js')"></script>  
+    <script src="@url('assets/plugins/bootstrap/js/bootstrap.min.js')"></script>
     <script src="@url('assets/plugins/back-to-top.js')"></script>
     <script src="@url('assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js')"></script> 
     <script src="@url('assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js')"></script>
