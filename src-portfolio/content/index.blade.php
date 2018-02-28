@@ -16,7 +16,7 @@
         <div class="items-wrapper isotope row col-eq">
             @foreach($projects_A as $project)
                 <article class="item {{$project['type']}} col-lg-3 col-6">
-                    <div class="item-inner"  style="height: 380px">
+                    <div class="item-inner">
                         <figure class="figure">
                             <img class="img-fluid" src="assets/images/portfolio/{{$project['image']}}" alt="" />
                         </figure>
@@ -30,7 +30,7 @@
             @endforeach
             @foreach($projects_B as $project)
                 <article class="item {{$project['type']}} col-lg-3 col-6">
-                    <div class="item-inner" style="height: 380px">
+                    <div class="item-inner">
                         <figure class="figure">
                             <img class="img-fluid" src="assets/images/portfolio/{{$project['image']}}" alt="" />
                         </figure>
