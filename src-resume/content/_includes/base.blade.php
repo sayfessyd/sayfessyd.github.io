@@ -24,12 +24,10 @@
     <footer class="footer">
         <div class="text-center">
             <small class="copyright">© Sayf Essyd <script>document.write(new Date().getFullYear())</script></small>
-            <a class="btn" href="javascript:pdfVersion()"><i class="fa fa-download" aria-hidden="true"></i> PDF Version</a>
         </div>
     </footer>
     <script src="@url('resume/assets/plugins/jquery-1.11.3.min.js')"></script>
     <script src="@url('resume/assets/plugins/bootstrap/js/bootstrap.min.js')"></script>
-    <script src="@url('resume/assets/plugins/html2pdf.bundle.min.js')"></script>
     <script src="@url('resume/assets/js/main.js')"></script>
 </body>
 </html>
