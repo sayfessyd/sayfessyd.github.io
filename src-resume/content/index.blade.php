@@ -13,7 +13,7 @@
             <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
             <div class="summary">
                 <ul class="list-unstyled">
-                    <li><img class="emojione" alt="💎" src="//cdn.jsdelivr.net/emojione/assets/png/1f48e.png?v=2.2.6"> Full Stack Developer,  Creator of Lollipop image editor</li>
+                    <li><img class="emojione" alt="💎" src="//cdn.jsdelivr.net/emojione/assets/png/1f48e.png?v=2.2.6"> Full Stack Developer</li>
                     <li><img class="emojione" alt="🖥" src="//cdn.jsdelivr.net/emojione/assets/png/1f5a5.png?v=2.2.6"> UI Designer</li>
                     <li><img class="emojione" alt="🎓" src="//cdn.jsdelivr.net/emojione/assets/png/1f393.png?v=2.2.6"> Student at the Higher Institute of Computer Science (Engineer's degree)</li>
                     <li><img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"> Pianist and Composer in my spare time</li></ul>
