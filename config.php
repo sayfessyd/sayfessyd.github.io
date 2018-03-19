@@ -71,7 +71,6 @@ return [
     'twitter' => 'sayfessyd',
     'youtube' => 'sayfmusic',
 
-    'info' => "Creator of Lollipop - Image Editor 🍭 Student at the Higher Institute Of Computer Science (Engineer's degree) 🎓 Pianist and Composer in my spare time ! 🎹 😉",
     'contact' => "Hi! I'm Saifeddine Essid, find me as @sayfessyd on twitter and github. I'm currently working as a freelance on weekdays and practice piano on weekends. ",
     'tel' => "sayfessyd",
 
