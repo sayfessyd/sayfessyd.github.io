@@ -49,7 +49,7 @@
                 <h1 class="name">{{$name}}</h1>
                 <div class="title">Full Stack Developer</div>
                 <div class="profile">
-                    <p>Creator of Lollipop - Image Editor <img class="emojione" alt="🍭" src="//cdn.jsdelivr.net/emojione/assets/png/1f36d.png?v=2.2.6"> Student at the HI of Computer Science (Engineer's degree) <img class="emojione" alt="🎓" src="//cdn.jsdelivr.net/emojione/assets/png/1f393.png?v=2.2.6"> Pianist and Composer in my spare time ! <img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"></p>
+                    <p>Creator of Lollipop - Image Editor <img class="emojione" alt="🍭" src="//cdn.jsdelivr.net/emojione/assets/png/1f36d.png?v=2.2.6"> Student at the Higher Institute Of Computer Science (Engineer's degree) <img class="emojione" alt="🎓" src="//cdn.jsdelivr.net/emojione/assets/png/1f393.png?v=2.2.6"> Pianist and Composer in my spare time ! <img class="emojione" alt="🎹" src="//cdn.jsdelivr.net/emojione/assets/png/1f3b9.png?v=2.2.6"></p>
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->
