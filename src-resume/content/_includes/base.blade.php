@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="@url('resume/assets/css/styles-6.css')">
     <link rel="stylesheet" href="@url('resume/assets/css/custom.css')">
     <link rel="stylesheet" href="@url('resume/assets/css/emojione.min.css')" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116560666-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-116560666-1');
+    </script>
 
 </head>
 
