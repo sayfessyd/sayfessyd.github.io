@@ -43,7 +43,6 @@
             <div class="actions">
                 <a class="btn d-none d-md-inline-block" href="{{'mailto:'.$email}}"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
                 <a class="btn" href="/resume/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> View My Resume</a>
-                <a class="btn" href="files/CV-Europass-20180211-Essid-FR.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Cv Europass Version</a>
             </div><!--//actions-->
             <ul class="social list-inline">
                 <li class="list-inline-item"><a href="{{'https://www.'.$linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
