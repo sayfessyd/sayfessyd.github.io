@@ -1,5 +1,5 @@
 <div class="profile-container">
-    <img class="profile" src="@url('resume/assets/images/profile/profile.jpg')" alt="Profile Image" />
+    <img class="profile" src="@url('profile/profile.jpg')" alt="Profile Image" />
     <h1 class="name">{{$name}}</h1>
     <h3 class="tagline"><i class="fa fa-diamond" aria-hidden="true"></i> Full Stack Developer
 </h3>
