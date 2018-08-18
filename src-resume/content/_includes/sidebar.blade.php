@@ -11,7 +11,7 @@
         <li class="linkedin"><i class="fa fa-linkedin"></i><a href="{{'https://www.'.$linkedIn}}" target="_blank">{{$linkedIn}}</a></li>
         <li class="github"><i class="fa fa-github"></i><a href="{{'https://'.$github}}" target="_blank">{{$github}}</a></li>
         <li class="twitter"><i class="fa fa-twitter"></i><a href="{{'https://twitter.com/'.$twitter}}" target="_blank">{{'@'.$twitter}}</a></li>
-        <li class="youtube"><i class="fa fa-youtube"></i><a href="{{'https://www.youtube.com/'.$youtube}}" target="_blank">{{$youtube}} (+300K Views)</a></li>
+        <li class="youtube"><i class="fa fa-youtube"></i><a href="{{'https://www.youtube.com/'.$youtube}}" target="_blank">{{$youtube}} (400K Views)</a></li>
     </ul>
 </div>
 <div class="education-container container-block">
