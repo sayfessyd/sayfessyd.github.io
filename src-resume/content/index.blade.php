@@ -32,7 +32,7 @@
                     </div>
                     <div class="details">
                         <p>{{$experience['details']}}</p>
-                        <a href="{{$experience['annexe']}}">Project repository on Github</a>
+                        <a href="{{$experience['annexe']}}">View Project</a>
                     </div>
                 </div>
             @endforeach
