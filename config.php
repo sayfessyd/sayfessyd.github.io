@@ -76,7 +76,7 @@ return [
 
     'experiences' => [
         ['title' => 'Full Stack Developer', 'time' => "February 2016 - May 2016", 'company' => 'BNA Bank', 'details' => 'Develop a Java EE web application that allows the management of promissory notes.', 'annexe' => 'https://github.com/sayfessyd/promissory-notes-manager', 'location'=>'Tunis'],
-        ['title' => 'Software Development Engineer', 'time' => "June 2014 - Present", 'company' => 'Self-employed', 'details' => 'Creator of Lollipop - Image Editor.', 'location'=>'Ariana'],
+        ['title' => 'Full Stack Developer', 'time' => "June 2014 - Present", 'company' => 'Self-employed', 'details' => 'Creator of Lollipop - Image Editor.', 'location'=>'Ariana'],
     ],
 
     'organisations' => [

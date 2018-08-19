@@ -1,7 +1,8 @@
 <div class="profile-container">
     <img class="profile" src="@url('profile/profile.jpg')" alt="Profile Image" />
     <h1 class="name">{{$name}}</h1>
-    <h3 class="tagline"><i class="fa fa-diamond" aria-hidden="true"></i> Software Development Engineer
+    <h3 class="tagline"><i class="fa fa-diamond" aria-hidden="true"></i> Full Stack Developer
+</h3>
 </div>
 <div class="contact-container container-block">
     <ul class="list-unstyled contact-list">
