@@ -63,84 +63,73 @@ return [
     'siteName' => 'sayfessyd',
     'siteDescription' => 'Yet another awesome site.',
 
-    'name' => 'Sayf Essyd',
+    'firstname' => 'sayf',
+    'lastname' => 'Essyd',
     'email' => 'mail.sayf@yahoo.com',
+    'location' => 'Ariana, TN',
+    'header' => "Self-Employed Software Engineer",
     'website' => 'sayfessyd.com',
-    'linkedIn' => 'linkedin.com/in/saifeddine-essid-539a32a4',
-    'github' => 'github.com/sayfessyd',
-    'twitter' => 'sayfessyd',
-    'youtube' => 'sayfmusic',
 
-    'contact' => "Hi! I'm Saifeddine Essid, find me as @sayfessyd on twitter and github. I'm currently working as a freelance on weekdays and practice piano on weekends. ",
-    'tel' => "sayfessyd",
+    'about' => "I have worked on several projects since June 2014 as a full stack developer trying to develop my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop which has reached over 175 sales on CodeCanyon as a 5-star product, and also many other projects. I plan to integrate big companies in the world as a software engineer after graduating.",
+    'tel' => "+216.50.465.281",
 
     'experiences' => [
-        ['title' => 'Full Stack Developer', 'time' => "June 2014 - Present", 'company' => 'Self-employed', 'details' => 'Creator of Lollipop - Image Editor.', 'location'=>'Ariana', 'annexe' => 'https://codecanyon.net/item/lollipop-image-editor/12957420'],
-        ['title' => 'Full Stack Developer', 'time' => "February 2016 - May 2016", 'company' => 'BNA Bank', 'details' => 'Develop a Java EE web application that allows the management of promissory notes.', 'annexe' => 'https://github.com/sayfessyd/promissory-notes-manager', 'location'=>'Tunis'],
+        ['title' => 'Full Stack Developer', 'time' => "2014 - Present", 'company' => 'Self-Employed', 'details' => 'I have worked as a self-employed full stack developer in parallel of my studies since June 2014.', 'location'=>'Ariana, TN'],
+        ['title' => 'Full Stack Developer', 'time' => "2016", 'company' => 'BNA Bank', 'details' => 'I integrated BNA Bank (a local bank in Tunisia) team as a full stack developer to work on a JAVA EE web application that allows the management of promissory notes. It was in the frame of an internship mission.', 'location'=>'Tunis, TN'],
+    ],
+
+    'expertise' => [
+        ['name' => 'PHP', 'details' => 'I have 4 years of experience in PHP with almost 4 projects. Two of them were developed on Laravel and the rest with native PHP.'],
+        ['name' => 'Javascript', 'details' => 'I have 4 years of experience in Javascript. I have done much work using many Javascript libraries.'],
+        ['name' => 'JAVA EE', 'details' => 'I have 2 years of experience on JAVA EE platform with almost 2 projects. One of them were developed on Spring Framework and the rest with native JAVA.'],
+        ['name' => 'Node.js', 'details' => 'I have a small experience in Node.js with almost 1 small project.'],
+        ['name' => 'ASP.NET', 'details' => 'I have a small experience on ASP.NET platform with almost 6 small projects.'],
+        ['name' => 'Android', 'details' => 'I have a small experience in Android development with almost 1 small project.']
     ],
 
     'organisations' => [
-        ['title' => 'IEEE Member', 'time' => "December 2016 - Present", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'annexe' => 'Certificate%20of%20Participation%20-%20IEEEXtreme%2011.0%20-%20Saifeddine%20Essid.pdf', 'location'=>'Ariana'],
+        ['title' => 'IEEE Member', 'time' => "2016", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'location'=>'Ariana'],
     ],
 
-    'projects_A' => [
-        ['title' => 'MessageMe', 'description' => "MessageMe is a social media script, the ONLY ONE of its kind based on anonymous messages and build on top of Laravel 5.4 with all possible features.", 'technologies' => 'Laravel 5.x - Vue.js 2.x - jQuery 3.x - Bootstrap 4', 'job' => 'Frontend / Backend Developer', 'period' => 'May 2018 – August 2018', 'url' => "https://codecanyon.net/item/messageme-laravel-anonymous-social-media-script/22280893", 'image' => 'lollipop2.png', 'type' => 'frontend backend'],
-        ['title' => 'Lollipop 2.0 (Premium Software / jQuery plugin) [ 175 Sales | 5 Stars ]', 'description' => "Lollipop 2.0 is built using the latest HTML5, CSS3 and JavaScript techniques and tools.", 'technologies' => 'Yarn - Gulp - Webpack - ES2015 - jQuery - Pug - Sass', 'job' => 'Frontend Developer', 'period' => 'June 2017 – July 2017', 'url' => "https://codecanyon.net/item/lollipop-image-editor/12957420", 'image' => 'lollipop2.png', 'type' => 'frontend'],
-        ['title' => 'Promissory Notes Manager', 'description' => "Java EE web application that allows the management of promissory notes.", 'technologies' => 'Spring Framework 4.3 - Hibernate ORM 5.2 - JavaServer Faces (JSF) 2.2 - PrimeFaces 5.3 - JasperReports 6.3', 'job' => 'Frontend / Backend Developer', 'period' => 'February 2016 – May 2016', 'url' => "https://github.com/sayfessyd/promissory-notes-manager", 'image' => 'source-code.jpg', 'type' => 'frontend backend'],
-        ['title' => 'Lollipop (Premium Software / jQuery plugin)', 'description' => "Lollipop is the perfect image editing HTML5 app for quick and straight forward editing.", 'technologies' => 'HTML5 - CSS3 - JavaScript (ES5)', 'job' => 'Frontend Developer', 'period' => 'September 2015 – October 2015', 'url' => "https://jqueryplugins.net/lollipop-html5-image-editor-app/", 'image' => 'lollipop.jpg', 'type' => 'frontend'],
-        ['title' => 'Effectshop [ 10K-50K Downloads | 3,5 Stars ]', 'description' => "Effectshop is the perfect image editing app for quick and straight forward editing.", 'technologies' => 'Cordova 4 - AngularJS 1.4 - jQuery 2.1 - Font Awesome 4.4', 'job' => 'Frontend Developer', 'period' => 'July 2015 – September 2015', 'url' => "https://play.google.com/store/apps/details?id=net.specialapp.effectshop", 'image' => 'effectshop.png', 'type' => 'frontend'],
-        ['title' => 'loadwave', 'description' => "loadwave is a video sharing webapp based on youtube, with the possibility to make Timed Comments.", 'technologies' => 'PHP5 (PSR-4 standard) - AngularJS 1.3 - jQuery 2.1 - Zurb Foundation 5 - Font Awesome 4.3', 'job' => 'Frontend / Backend Developer', 'period' => 'February 2015 – April 2015', 'url' => "https://github.com/sayfessyd/loadwave", 'image' => 'loadwave.png', 'type' => 'frontend backend'],
-        ['title' => 'Pharma', 'description' => "Pharma is a web application that allows the stock management of a pharmacy.", 'technologies' => 'Laravel 4.2 - AngularJS 1.2 - jQuery 2.1 - Font Awesome 4.2', 'job' => 'Frontend / Backend Developer', 'period' => 'November 2014 – January 2015', 'url' => "https://github.com/sayfessyd/pharma", 'image' => 'pharma.png', 'type' => 'frontend backend']
-    ],
-
-    'projects_B' => [
-        ['title' => 'Patients Manager', 'description' => "ASP.NET web application that allows patients, appointments and accounting management of a doctor's office.", 'technologies' => 'ASP.NET Web API (MVC and Repository patterns) - Entity Framework - Vue.js 2.x', 'job' => 'Frontend / Backend Developer', 'period' => 'May 2018 – June 2018', 'url' => "https://github.com/sayfessyd/patients-manager", 'image' => 'patients-manager.png', 'type' => 'frontend backend'],
-        ['title' => 'ISIHub', 'description' => "It's an android project built with android studio that connects with a backend part based on camunda. ", 'technologies' => 'Android', 'job' => 'Android Developer', 'period' => 'April 2018 – May 2018', 'url' => "https://github.com/sayfessyd/ISIHub", 'image' => 'isihub.png', 'type' => 'frontend'],
-        ['title' => 'Questions pour un champion', 'description' => "Questions pour un champion is a french game show produced under license from the company Fremantle Media.", 'technologies' => 'Yarn - Express.js - Socket.io - Pug - Bootstrap 4 - Fontawesome - jQuery', 'job' => 'Frontend / Backend Developer', 'period' => 'December 2017 – January 2018', 'url' => "https://github.com/sayfessyd/qpc-version-bootstrap4", 'image' => 'qpc.png', 'type' => 'frontend'],
-        ['title' => 'Webapp Chart', 'description' => "The chart that describes possibilities of web technologies that i have tried during 4 years. [2014-2018]", 'technologies' => 'Draw.io', 'job' => 'Web Developer', 'period' => 'December 2017', 'url' => "https://github.com/sayfessyd/webapp-chart", 'image' => 'webapp.png', 'type' => 'frontend backend'],
-        ['title' => 'Prestashop Booster', 'description' => "A module that turns prestashop based websites much faster by deleting worthless data, optimizes the store and raise performance.", 'technologies' => 'PHP5 - Smarty - jQuery', 'job' => 'Frontend / Backend Developer', 'period' => 'July 2017 – August 2017', 'url' => "#", 'image' => 'prestashop.png', 'type' => 'frontend'],
-        ['title' => 'MVC Wrapper', 'description' => "It's a simple MVC wrapper for PHP using PSR-0 standard. All the MVC structure is done, you just need to create your models, views and controllers.", 'technologies' => 'PHP5 (PSR-0 standard)', 'job' => 'Backend Developer', 'period' => 'August 2014 – September 2014', 'url' => "https://github.com/sayfessyd/MVC-wrapper", 'image' => 'source-code.jpg', 'type' => 'backend']
-    ],
-
-    'languages' => [
-        ['name' => 'Arabic', 'n/p' => 'Native'],
-        ['name' => 'French', 'n/p' => 'Professional'],
-        ['name' => 'English', 'n/p' => 'Professional']
+    'projects' => [
+        ['title' => 'Message.Me', 'description' => "MessageMe is a social media script, the ONLY ONE of its kind based on anonymous messages and build on top of Laravel 5.4 with all possible features.", 'url' => "https://codecanyon.net/item/messageme-laravel-anonymous-social-media-script/22280893", 'image' => 'messageme.jpg'],
+        ['title' => 'Lollipop 2.0 (Premium Software / jQuery plugin)', 'description' => "Lollipop 2.0 is built using the latest HTML5, CSS3 and JavaScript techniques and tools.", 'url' => "https://codecanyon.net/item/lollipop-image-editor/12957420", 'image' => 'lollipop2.jpg'],
     ],
 
     'education' => [
-        ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019'],
-        ['title' => "Licence's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016'],
-        ['title' => "Bachelor's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2012 - 2013']
+        ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019', 'location' => 'Ariana, TN', 'details' => "After getting my license degree, I have chosen to continue my studies in software engineering to obtain my engineer degree."],
+        ['title' => "Licence's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016', 'location' => 'Ariana, TN', 'details' => "In 2016, I got my license degree in computer systems from the Higher Institute Of Computer Science."],
+        ['title' => "Bachelor's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2012 - 2013', 'location' => 'Menzel Bourguiba, TN', 'details' => "In 2013, I got my bachelor degree in natural sciences."]
     ],
 
-    'interests' => [
-        'Music'
+    'profiles' => [
+        'linkedin' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4',
+        'github' => 'https://github.com/sayfessyd',
+        'twitter' => 'https://twitter.com/sayfessyd',
+        'youtube' => 'https://www.youtube.com/channel/UCvmjmfm4aU82WvtPnfwNLCg',
+        'facebook' => 'https://www.facebook.com/sayf.music',
+        'codecanyon' => 'https://codecanyon.net/user/specialapp/portfolio',
+        'play' => 'https://play.google.com/store/apps/developer?id=SpecialAppDev',
+        'instagram' => 'https://www.instagram.com/sayfessyd'
     ],
 
-    'top_skills' => [
-        ['title' => 'PHP7 & Laravel 5.x (+Lumen)', 'level' => '90%', 'count' => '3',  'description' => 'PHP is a server-side scripting language designed for web development. Laravel is a web application framework with expressive, elegant syntax. Lumen is the stunningly fast PHP micro-framework by Laravel.'],
-        ['title' => 'ES6 & Vue.js 2.x (+Nuxt.js)', 'level' => '80%', 'count' => '3', 'description' => ' ES6, also known as ES2015, is the latest version of the ECMAScript standard. Vue.js is an open-source progressive JavaScript framework for building user interfaces. Nuxt.js is a framework for server-rendered Vue applications.'],
-        ['title' => 'ES5 & jQuery (+Mobile) & AngularJS 1.x', 'level' => '80%', 'count' => '4', 'description' => 'jQuery is a JavaScript library designed to simplify the client-side scripting of HTML. AngularJS is a JavaScript-based front-end web application framework mainly maintained by Google.'],
-    ],
 
     'skills' => [
-        ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '70%', 'count' => '3', 'description' => 'HTML is a markup language used for structuring and presenting content on the World Wide Web. CSS is a style sheet language used for describing the presentation of a document written in a markup language.'],
-        ['title' => 'Bootstrap 4 & Foundation 5 & PrimeFaces 5 & Bulma 0.x & TailwindCSS 0.x', 'level' => '70%', 'count' => '5', 'description' => 'Top 5 Most Popular CSS and UI Frameworks. A CSS framework is a pre-prepared software framework to allow easier and more standards-compliant web design using the CSS language.'],
-        ['title' => 'Yarn & Gulp & Webpack', 'level' => '70%', 'count' => '3', 'description' => 'Yarn is a fast, reliable, and secure dependency management. Gulp is a toolkit to automate time-consuming tasks in the development workflow. Webpack is a module bundler.'],
-        ['title' => 'Pug (Jade) & Stylus & Sass', 'level' => '70%', 'count' => '3', 'description' => 'Pug is a high-performance template engine heavily influenced by Haml. Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Sass is a scripting language that is interpreted or compiled into CSS.'],
-        ['title' => 'Spring Framework & Hibernate ORM & JSF 2.0 & Struts 2', 'level' => '70%', 'count' => '4', 'description' => 'Spring is an application framework and inversion of control container for the Java platform. Hibernate ORM is an object-relational mapping tool. JSF is a Java specification for building component-based user interfaces for web applications.'],
-        ['title' => 'ASP.NET MVC & Web API & Razor & WCF Services & Web Forms', 'level' => '60%', 'count' => '4', 'description' => 'ASP.NET is an open-source server-side web application framework designed for web development to produce dynamic web pages. Razor is an ASP.NET programming syntax used to create dynamic web pages.'],
-        ['title' => 'Express.js & Socket.io', 'level' => '60%', 'count' => '2', 'description' => 'Express.js, or simply Express, is a web application framework for Node.js. Socket.IO is a JavaScript library for realtime web applications,  it enables bi-directional communication.'],
-        ['title' => 'Prestashop 1.7', 'level' => '60%', 'count' => '1', 'description' => 'Prestashop is an open source e-commerce solution, it is written in the PHP programming language with support for the MySQL database management system.'],
-        ['title' => 'Apache Cordova 5.x & OnsenUI 2', 'level' => '60%', 'count' => '2', 'description' => 'Apache Cordova (PhoneGap) is a mobile application development framework, it enables software programmers to build applications for mobile devices using web technologies.'],
-        ['title' => 'Android Studio 3.x', 'level' => '60%', 'count' => '1', 'description' => "Android Studio is the official IDE for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development, it provides the fastest tools for building apps."],
-        ['title' => 'Ableton Live 9.x & Kontakt 5.x', 'level' => '60%', 'count' => '2', 'description' => 'Ableton Live is a software music sequencer and digital audio workstation for macOS and Windows. Kontakt is the world’s leading software sampler, a playground for working creatively with samples.'],
-        ['title' => 'Adobe Photoshop & After Effects CS6', 'level' => '60%', 'count' => '2', 'description' => 'Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for macOS and Windows. Adobe After Effects is a digital visual effects, and compositing application.']
+        ['title' => 'PHP7 & Laravel', 'level' => '90', 'count' => '2'],
+        ['title' => 'ES6 & Vue.js', 'level' => '80', 'count' => '2'],
+        ['title' => 'ES5 & jQuery & AngularJS', 'level' => '80', 'count' => '3'],
+        ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '70', 'count' => '3'],
+        ['title' => 'Yarn & Gulp & Webpack', 'level' => '70', 'count' => '3'],
+        ['title' => 'Bootstrap & Foundation & PrimeFaces & Bulma & TailwindCSS', 'level' => '70', 'count' => '5'],
+        ['title' => 'Pug & Stylus & Sass', 'level' => '70', 'count' => '3'],
+        ['title' => 'Spring & Hibernate & JSF & Struts', 'level' => '70', 'count' => '4'],
+        ['title' => 'Express.js & Socket.io', 'level' => '60', 'count' => '2'],
+        ['title' => 'ASP.NET MVC & Web API & Web Forms', 'level' => '60', 'count' => '3'],
+        ['title' => 'Prestashop', 'level' => '60', 'count' => '1'],
+        ['title' => 'Android Studio', 'level' => '60', 'count' => '1'],
+        ['title' => 'Adobe Photoshop & After Effects', 'level' => '60', 'count' => '2'],
+        ['title' => 'Apache Cordova & OnsenUI', 'level' => '60', 'count' => '2'],
+        ['title' => 'Ableton Live & Kontakt', 'level' => '60', 'count' => '2'],
     ],
-
-    'other_skills' => [
-        'Windows', 'PowerShell', 'Linux', 'Ubuntu', 'Bash', 'Apache', 'C', 'C++',  'JAVA', 'Python', 'Node.js', 'XML', 'XHTML', 'JSON', 'Oracle', 'PostgreSQL', 'MySQL', 'MariaDB', 'Redis', 'SOAP', 'REST', 'Git', 'Docker'
-    ]
 
 ];
