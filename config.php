@@ -92,7 +92,7 @@ return [
     ],
 
     'projects' => [
-        ['title' => 'Message.Me', 'description' => "MessageMe is a social media script, the ONLY ONE of its kind based on anonymous messages and build on top of Laravel 5.4 with all possible features.", 'url' => "https://codecanyon.net/item/messageme-laravel-anonymous-social-media-script/22280893", 'image' => 'messageme.jpg'],
+        ['title' => 'Message.Me', 'description' => "MessageMe is a social media script, the ONLY ONE of its kind based on anonymous messages and built on top of Laravel 5.4 with all possible features.", 'url' => "https://codecanyon.net/item/messageme-laravel-anonymous-social-media-script/22280893", 'image' => 'messageme.jpg'],
         ['title' => 'Lollipop 2.0 (Premium Software / jQuery plugin)', 'description' => "Lollipop 2.0 is built using the latest HTML5, CSS3 and JavaScript techniques and tools.", 'url' => "https://codecanyon.net/item/lollipop-image-editor/12957420", 'image' => 'lollipop2.jpg'],
     ],
 
