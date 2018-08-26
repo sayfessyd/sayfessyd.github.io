@@ -70,7 +70,7 @@ return [
     'header' => "Self-Employed Software Engineer",
     'website' => 'sayfessyd.com',
 
-    'about' => "I have worked on several projects since June 2014 as a full stack developer trying to develop my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop which has reached over 175 sales on CodeCanyon as a 5-star product, and also many other projects. I plan to integrate big companies in the world as a software engineer after graduating.",
+    'about' => "I have worked on several projects since June 2014 as a self-employed full stack developer trying to develop my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop which has reached over 175 sales on CodeCanyon as a 5-star product, and also many other projects. I plan to integrate big companies in the world as a software engineer after graduating.",
     'tel' => "+216.50.465.281",
 
     'experiences' => [
@@ -83,7 +83,7 @@ return [
         ['name' => 'Javascript', 'details' => 'I have 4 years of experience in Javascript. I have done much work using many Javascript libraries.'],
         ['name' => 'JAVA EE', 'details' => 'I have 2 years of experience on JAVA EE platform with almost 2 projects. One of them were developed on Spring Framework and the rest with native JAVA.'],
         ['name' => 'Node.js', 'details' => 'I have a small experience in Node.js with almost 1 small project.'],
-        ['name' => 'ASP.NET', 'details' => 'I have a small experience on ASP.NET platform with almost 6 small projects.'],
+        ['name' => 'ASP.NET', 'details' => 'I have a small experience on ASP.NET platform with almost 5 small projects.'],
         ['name' => 'Android', 'details' => 'I have a small experience in Android development with almost 1 small project.']
     ],
 
