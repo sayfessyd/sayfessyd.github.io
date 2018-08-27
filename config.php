@@ -79,10 +79,10 @@ return [
     ],
 
     'expertise' => [
-        ['name' => 'PHP', 'details' => 'I have 4 years of experience in PHP with almost 4 projects. Two of them were developed on Laravel and the rest with native PHP.'],
+        ['name' => 'PHP', 'details' => 'I have 4 years of experience in PHP with almost 4 projects. Two of them were built with Laravel and the rest with native PHP.'],
         ['name' => 'Javascript', 'details' => 'I have 4 years of experience in Javascript. I have done much work using many Javascript libraries.'],
-        ['name' => 'JAVA EE', 'details' => 'I have 2 years of experience on JAVA EE platform with almost 2 projects. One of them was developed on Spring Framework and the rest with native JAVA.'],
-        ['name' => 'Node.js', 'details' => 'I have a small experience in Node.js with almost 1 small project.'],
+        ['name' => 'Java EE', 'details' => 'I have 2 years of experience on Java EE platform with almost 2 projects. One of them was built with Spring Framework and the rest with native Java.'],
+        ['name' => 'Node.js', 'details' => 'I have a small experience in Node.js with almost 1 small project built with Express.js.'],
         ['name' => 'ASP.NET', 'details' => 'I have a small experience on ASP.NET platform with almost 5 small projects.'],
         ['name' => 'Android', 'details' => 'I have a small experience in Android development with almost 1 small project.']
     ],
