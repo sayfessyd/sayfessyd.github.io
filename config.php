@@ -118,7 +118,7 @@ return [
         ['title' => 'PHP7 & Laravel', 'level' => '90', 'count' => '2'],
         ['title' => 'ES6 & Vue.js', 'level' => '80', 'count' => '2'],
         ['title' => 'ES5 & jQuery & AngularJS', 'level' => '80', 'count' => '3'],
-        ['title' => 'HTML5 & CSS3 & CSSnext', 'level' => '70', 'count' => '3'],
+        ['title' => 'HTML5 & CSS3 & PostCSS', 'level' => '70', 'count' => '3'],
         ['title' => 'Yarn & Gulp & Webpack', 'level' => '70', 'count' => '3'],
         ['title' => 'Bootstrap & Foundation & PrimeFaces & Bulma & TailwindCSS', 'level' => '70', 'count' => '5'],
         ['title' => 'Pug & Stylus & Sass', 'level' => '70', 'count' => '3'],
