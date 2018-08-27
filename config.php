@@ -75,7 +75,7 @@ return [
 
     'experiences' => [
         ['title' => 'Full Stack Developer', 'time' => "2014 - Present", 'company' => 'Self-Employed', 'details' => 'I have worked as a self-employed full stack developer in parallel of my studies since June 2014.', 'location'=>'Ariana, TN'],
-        ['title' => 'Full Stack Developer', 'time' => "2016", 'company' => 'BNA Bank', 'details' => 'I integrated BNA Bank (a local bank in Tunisia) team as a full stack developer to work on a JAVA EE web application that allows the management of promissory notes. It was in the frame of an internship mission.', 'location'=>'Tunis, TN'],
+        ['title' => 'Full Stack Developer', 'time' => "2016", 'company' => 'BNA Bank', 'details' => 'I integrated BNA Bank (a local bank in Tunisia) team as a full stack developer to work on a Java EE web application that allows the management of promissory notes. It was in the frame of an internship mission.', 'location'=>'Tunis, TN'],
     ],
 
     'expertise' => [
