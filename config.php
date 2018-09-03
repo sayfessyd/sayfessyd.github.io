@@ -99,7 +99,7 @@ return [
     'education' => [
         ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019', 'location' => 'Ariana, TN', 'details' => "After getting my license degree, I have chosen to continue my studies in software engineering to obtain my engineer degree."],
         ['title' => "Licence's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016', 'location' => 'Ariana, TN', 'details' => "In 2016, I got my license degree in computer systems from the Higher Institute Of Computer Science."],
-        ['title' => "Bachelor's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2012 - 2013', 'location' => 'Menzel Bourguiba, TN', 'details' => "In 2013, I got my bachelor degree in natural sciences."]
+        ['title' => "Bachelor's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2012 - 2013', 'location' => 'Menzel Bourguiba, TN', 'details' => "In 2013, I got my bachelor degree (School Baccalaureate) in natural sciences."]
     ],
 
     'profiles' => [
