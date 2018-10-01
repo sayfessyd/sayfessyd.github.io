@@ -70,12 +70,12 @@ return [
     'header' => "Self-Employed Software Engineer",
     'website' => 'sayfessyd.com',
 
-    'about' => "I have worked on several projects since June 2014 as a self-employed full stack developer trying to enhance my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop that has reached over 175 sales on CodeCanyon as a 5-star product, and also many open source projects on Github. I plan to integrate big companies in the world as a software engineer after graduating.",
+    'about' => "I have worked on several projects since June 2014 as a self-employed full stack developer trying to enhance my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop that has reached over 175 sales on CodeCanyon as a 5-star product, and also many open source projects on Github. I plan to join big companies in the world as a software engineer after graduating.",
     'tel' => "+216.50.465.281",
 
     'experiences' => [
         ['title' => 'Full Stack Developer', 'time' => "2014 - Present", 'company' => 'Self-Employed', 'details' => 'I have worked as a self-employed full stack developer in parallel of my studies since June 2014.', 'location'=>'Ariana, TN'],
-        ['title' => 'Full Stack Developer', 'time' => "2016", 'company' => 'BNA Bank', 'details' => 'I integrated BNA Bank (a local bank in Tunisia) team as a full stack developer to work on a Java EE web application that allows the management of promissory notes. It was in the frame of an internship mission.', 'location'=>'Tunis, TN'],
+        ['title' => 'Full Stack Developer', 'time' => "2016", 'company' => 'BNA Bank', 'details' => 'I joined BNA Bank (a local bank in Tunisia) team as a full stack developer to work on a Java EE web application that allows the management of promissory notes. It was in the frame of an internship mission.', 'location'=>'Tunis, TN'],
     ],
 
     'expertise' => [
