@@ -194,7 +194,9 @@
                         <div class="c-intro">
                             <div class="o-content__body">
                                 <p>
-                                    {{$about}}    
+                                    {{$about}}
+                                    </b></b>
+                                    {{$about_b}}    
                                 </p>
                             </div>
                         </div>
