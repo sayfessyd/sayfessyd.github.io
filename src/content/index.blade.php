@@ -196,7 +196,9 @@
                                 <p>
                                     {{$about}}
                                     </br></br>
-                                    {{$about_b}}    
+                                    {{$about_b}}
+                                    </br></br> 
+                                    {{$about_c}}
                                 </p>
                             </div>
                         </div>
