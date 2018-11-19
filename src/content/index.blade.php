@@ -195,7 +195,7 @@
                             <div class="o-content__body">
                                 <p>
                                     {{$about}}
-                                    </b></b>
+                                    </br></br>
                                     {{$about_b}}    
                                 </p>
                             </div>
