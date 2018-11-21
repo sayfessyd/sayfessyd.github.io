@@ -72,7 +72,7 @@ return [
 
     'about' => "I have worked on several projects since June 2014 as a self-employed full stack developer trying to enhance my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop that has reached almost 200 sales on CodeCanyon as a 5-star product, and also many open source projects on Github.",
     'about_b' => "I have always been interested in creating beautiful products that can have great impacts. I created my first baby (i.e., product) in 2015, it was a challenge that motivates me as a student of computer science to create a software product that can compete with other products founded by software development companies. I have much learned from this experience since I solved many technical problems and discovered many technologies during the development process.",
-    'about_c' => "I am open to any roles that can be opportunities to improve my career in the future. I plan to join big companies in the world as a software engineer after graduating.",
+    'about_c' => "I am open to any roles that can be opportunities to improve my career. I plan to join big companies in the world as a software engineer after graduating.",
     'tel' => "+216.50.465.281",
 
     'experiences' => [
