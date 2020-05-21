@@ -2307,6 +2307,7 @@ img[height] {
 }
 
 .c-image-overlay img {
+  filter: grayscale(80%);
   width: 100%;
   transition: ease .6s;
 }

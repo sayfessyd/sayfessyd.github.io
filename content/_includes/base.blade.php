@@ -13,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,900,900italic&subset=latin,latin-ext" rel="stylesheet">
         <!-- Main CSS -->
         <link rel="stylesheet" href="assets/css/main.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/custom.css">
         <!-- Themes -->
         <link rel="stylesheet" href="assets/css/themes.light.css">
         <link rel="stylesheet" href="assets/css/themes.dark.css">
@@ -31,6 +33,10 @@
             @yield('body')
         </div>
 
+        <!-- Numeral -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+        <!-- Google Api -->
+        <script src="https://apis.google.com/js/api.js"></script>
         <!-- jQuery -->
         <script src="assets/vendor/jquery.min.js"></script>
         <!-- dense.js (Retina plugin) -->
@@ -39,6 +45,8 @@
         <script src="assets/vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
         <!-- ScrollReveal -->
         <script src="assets/vendor/scrollreveal.min.js"></script>
+        <!-- Api JS -->
+        <script src="assets/js/api.js"></script>
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>
         <!-- Google Analytics -->

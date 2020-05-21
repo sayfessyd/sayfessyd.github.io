@@ -49,25 +49,11 @@
                                     <div class="o-grid__col-md-3  o-grid__col-sm-6">
                                         <div class="a-header  o-content">
                                             <div class="o-content__body">
-                                                <a href="https://www.google.com/maps/place/{{ $location }}" target="_blank" class="t-link-container">
-                                                    <h4>Location</h4>
-                                                    <address>
-                                                        <span class="t-link-container__item--blended">
-                                                            {{ $location }}
-                                                        </span>
-                                                    </address>
-                                                </a><!-- /o-link-container -->
-                                            </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
-                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                        <div class="a-header  o-content">
-                                            <div class="o-content__body">
-                                                <a href="tel:{{ $tel }}" target="_blank" class="t-link-container">
-                                                    <h4>Phone</h4>
+                                                <a href="mailto:{{ $email }}" target="_blank" class="t-link-container">
+                                                    <h4>Email</h4>
                                                     <p>
                                                         <span class="t-link-container__item--blended">
-                                                            {{ $tel }}
+                                                            {{ $email }}
                                                         </span>
                                                     </p>
                                                 </a><!-- /o-link-container -->
@@ -91,13 +77,13 @@
                                     <div class="o-grid__col-md-3  o-grid__col-sm-6">
                                         <div class="a-header  o-content">
                                             <div class="o-content__body">
-                                                <a href="mailto:{{ $email }}" target="_blank" class="t-link-container">
-                                                    <h4>Email</h4>
-                                                    <p>
+                                                <a href="https://www.google.com/maps/place/{{ $location }}" target="_blank" class="t-link-container">
+                                                    <h4>Location</h4>
+                                                    <address>
                                                         <span class="t-link-container__item--blended">
-                                                            {{ $email }}
+                                                            {{ $location }}
                                                         </span>
-                                                    </p>
+                                                    </address>
                                                 </a><!-- /o-link-container -->
                                             </div>
                                         </div><!-- /o-content -->
@@ -125,7 +111,7 @@
                             Intro
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            What I am all about.
+                            Who the hell am I?
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -134,15 +120,148 @@
                         <div class="c-intro">
                             <div class="o-content__body">
                                 <p>
-                                    {{ $about }}
-                                    </br></br>
-                                    {{ $about_b }}
-                                    </br></br>
-                                    {{ $about_c }}
+                                    {!! $about !!}
                                 </p>
                             </div>
                         </div>
                     </div>
+                </div><!-- /o-section__content -->
+            </div><!-- /o-section__container -->
+        </div><!-- /o-container -->
+    </section><!-- /o-section -->
+
+    <!-- ################################ -->
+    <!-- ########### PLATFORMS ########### -->
+    <!-- ################################ -->
+    <section class="o-section  t-section  ">
+        <div class="o-section__header-bg  t-section__header"></div>
+        <div class="o-section__content-bg  t-section__content"></div>
+        <div class="o-container">
+            <div class="o-section__container">
+                <header class="o-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="o-section__heading">
+                            Platform records
+                        </h2>
+                        <div class="o-content__body  o-section__description">
+                            Notable records.
+                        </div>
+                    </div>
+                </header><!-- /o-section__header -->
+                <div class="o-section__content t-section__content">
+                    <div class="o-grid">
+                        <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                            <div class="o-content">
+                                <a href="{{ $profiles['youtube'] }}" target="_blank" class="t-link-container">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-profile__icon">
+                                                <i class="fa-icon fab fa-lg fa-youtube"></i>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3 class="t-link-container__item">
+                                                Youtube
+                                            </h3>
+                                            <p>
+                                                Views <small class="cs-stat" id="yt-views"></small>
+                                                <br />
+                                                Subscribers <small class="cs-stat" id="yt-subscriberCount"></small>
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media -->
+                                </a><!-- /t-link-container -->
+                            </div><!-- /o-content -->
+                        </div><!-- /o-grid__col -->
+                        <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                            <div class="o-content">
+                                <a href="{{ $profiles['play'] }}" target="_blank" class="t-link-container">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-profile__icon">
+                                                <i class="fa-icon fab fa-lg fa-soundcloud"></i>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3 class="t-link-container__item">
+                                                Soundcloud
+                                            </h3>
+                                            <p>
+                                                Plays <small class="cs-stat" id="sc-plays"></small>
+                                                <br />
+                                                Followers <small class="cs-stat" id="sc-followerCount"></small>
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media -->
+                                </a><!-- /t-link-container -->
+                            </div><!-- /o-content -->
+                        </div><!-- /o-grid__col -->
+                        <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                            <div class="o-content">
+                                <a href="{{ $profiles['github'] }}" target="_blank" class="t-link-container">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-profile__icon">
+                                                <i class="fa-icon fab  fa-lg  fa-instagram"></i>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3 class="t-link-container__item">
+                                                Instagram
+                                            </h3>
+                                            <p>
+                                                Posts <small class="cs-stat" id="ig-posts"></small>
+                                                <br />
+                                                Followers <small class="cs-stat" id="ig-followerCount"></small>
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media -->
+                                </a><!-- /t-link-container -->
+                            </div><!-- /o-content -->
+                        </div><!-- /o-grid__col -->
+                    </div><!-- /o-grid -->
+                </div><!-- /o-section__content -->
+            </div><!-- /o-section__container -->
+        </div><!-- /o-container -->
+    </section><!-- /o-section -->
+
+    <!-- ################################ -->
+    <!-- ########### PORTFOLIO ########## -->
+    <!-- ################################ -->
+    <section class="o-section  t-section  ">
+        <div class="o-section__header-bg  t-section__header"></div>
+        <div class="o-section__content-bg  t-section__content"></div>
+        <div class="o-container">
+            <div class="o-section__container">
+                <header class="o-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="o-section__heading">
+                            Things I Made
+                        </h2>
+                        <div class="o-content__body  o-section__description">
+                            Notable projects.
+                        </div>
+                    </div>
+                </header><!-- /o-section__header -->
+                <div class="o-section__content  t-section__content  o-section__full-bottom-space">
+                    <div class="o-grid  o-grid--gallery">
+                        @foreach($projects as $project)
+                            <div class="o-grid__col-sm-6">
+                                <a class="c-image-overlay  t-image-overlay  js-lightbox" href="{{ $project['url'] }}" data-lightbox-hidpi="" title="{{ $project['title'] }}" data-lightbox-gallery="portfolio">
+                                    <img src="assets/images/portfolio/{{ $project['image'] }}" alt="">
+                                    <div class="c-image-overlay__content">
+                                        <h3>
+                                            {{ $project['title'] }}
+                                        </h3>
+                                        <hr class="c-image-overlay__deco-line  t-image-overlay__deco-line" />
+                                        <p>
+                                            {{ $project['description'] }}
+                                        </p>
+                                    </div>
+                                </a>
+                            </div><!-- /o-grid__col -->
+                        @endforeach
+                    </div><!-- /o-grid -->
                 </div><!-- /o-section__content -->
             </div><!-- /o-section__container -->
         </div><!-- /o-container -->
@@ -159,10 +278,10 @@
                 <header class="o-section__header  t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Expertise
+                            Expertise I have
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Batman would be jealous.
+                            Software Engineering fields.
                         </div>
                     </div>
                 </header>
@@ -174,7 +293,11 @@
                                 <div class="o-media  o-media--block  o-content">
                                     <div class="o-media__figure">
                                         <div class="c-number  t-primary-color">
-                                            0{{ ++$ex }}
+                                            @if($ex < 9)
+                                                0{{ ++$ex }}
+                                            @else
+                                                {{ ++$ex }}
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="o-media__body  o-content__body">
@@ -195,11 +318,13 @@
     <!-- ################################ -->
     <!-- ############ SKILLS ############ -->
     <!-- ################################ -->
+
     @php
         $sum = 0;
         foreach ($skills as $skill)
             $sum += $skill['count'];
     @endphp
+    @if(false)
     <section class="o-section t-section">
         <div class="o-section__header-bg  t-section__header"></div>
         <div class="o-section__content-bg  t-section__content"></div>
@@ -208,10 +333,10 @@
                 <header class="o-section__header  t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            {{ $sum }} Skills
+                            I have {{ $sum }} Skills
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Progress bars, anyone?
+                            Languages and Frameworks skills.
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -241,7 +366,7 @@
             </div><!-- /o-section__container -->
         </div><!-- /o-container -->
     </section><!-- /o-section -->
-
+    @endif
     <!-- ################################ -->
     <!-- ########## EXPERIENCE ########## -->
     <!-- ################################ -->
@@ -253,10 +378,10 @@
                 <header class="o-section__header  t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Experience
+                            Experience I have
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Yes. I&#39;ve been around.
+                            Notable experience.
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -307,10 +432,10 @@
                 <header class="o-section__header  t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Education
+                            Education I got
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Lazy isn&#39;t in my vocabulary.
+                            Computer science fields.
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -353,140 +478,9 @@
         </div><!-- /o-container -->
     </section><!-- /o-section -->
 
-    <!-- ################################ -->
-    <!-- ########### PROFILES ########### -->
-    <!-- ################################ -->
-    <section class="o-section  t-section  ">
-        <div class="o-section__header-bg  t-section__header"></div>
-        <div class="o-section__content-bg  t-section__content"></div>
-        <div class="o-container">
-            <div class="o-section__container">
-                <header class="o-section__header  t-section__header">
-                    <div class="o-content">
-                        <h2 class="o-section__heading">
-                            Profiles
-                        </h2>
-                        <div class="o-content__body  o-section__description">
-                            Busy as usual.
-                        </div>
-                    </div>
-                </header><!-- /o-section__header -->
-                <div class="o-section__content t-section__content">
-                    <div class="o-grid">
-                        <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                            <div class="o-content">
-                                <a href="{{ $profiles['play'] }}" target="_blank" class="t-link-container">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-profile__icon">
-                                                <i class="fa-icon fab fa-lg fa-android"></i>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="t-link-container__item">
-                                                Google Play
-                                            </h3>
-                                            <p>
-                                                An overview of the mobile applications that I developed, with over 10K downloads
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media -->
-                                </a><!-- /t-link-container -->
-                            </div><!-- /o-content -->
-                        </div><!-- /o-grid__col -->
-                        <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                            <div class="o-content">
-                                <a href="{{ $profiles['github'] }}" target="_blank" class="t-link-container">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-profile__icon">
-                                                <i class="fa-icon fab  fa-lg  fa-github-alt"></i>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="t-link-container__item">
-                                                GitHub
-                                            </h3>
-                                            <p>
-                                                You find all my open source projects on GitHub. I have until now over 10 original projects.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media -->
-                                </a><!-- /t-link-container -->
-                            </div><!-- /o-content -->
-                        </div><!-- /o-grid__col -->
-                        <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                            <div class="o-content">
-                                <a href="{{ $profiles['youtube'] }}" target="_blank" class="t-link-container">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-profile__icon">
-                                                <i class="fa-icon fab fa-lg fa-youtube"></i>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="t-link-container__item">
-                                                Youtube
-                                            </h3>
-                                            <p>
-                                                Yes. I'm also a musician and here you find my youtube channel with over 400K Views.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media -->
-                                </a><!-- /t-link-container -->
-                            </div><!-- /o-content -->
-                        </div><!-- /o-grid__col -->
-                    </div><!-- /o-grid -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
-
-    <!-- ################################ -->
-    <!-- ########### PORTFOLIO ########## -->
-    <!-- ################################ -->
-    <section class="o-section  t-section  ">
-        <div class="o-section__header-bg  t-section__header"></div>
-        <div class="o-section__content-bg  t-section__content"></div>
-        <div class="o-container">
-            <div class="o-section__container">
-                <header class="o-section__header  t-section__header">
-                    <div class="o-content">
-                        <h2 class="o-section__heading">
-                            Portfolio
-                        </h2>
-                        <div class="o-content__body  o-section__description">
-                            Here it gets interesting.
-                        </div>
-                    </div>
-                </header><!-- /o-section__header -->
-                <div class="o-section__content  t-section__content  o-section__full-bottom-space">
-                    <div class="o-grid  o-grid--gallery">
-                        @foreach($projects as $project)
-                            <div class="o-grid__col-sm-6">
-                                <a class="c-image-overlay  t-image-overlay  js-lightbox" href="{{ $project['url'] }}" data-lightbox-hidpi="" title="{{ $project['title'] }}" data-lightbox-gallery="portfolio">
-                                    <img src="assets/images/portfolio/{{ $project['image'] }}" alt="">
-                                    <div class="c-image-overlay__content">
-                                        <h3>
-                                            {{ $project['title'] }}
-                                        </h3>
-                                        <hr class="c-image-overlay__deco-line  t-image-overlay__deco-line" />
-                                        <p>
-                                            {{ $project['description'] }}
-                                        </p>
-                                    </div>
-                                </a>
-                            </div><!-- /o-grid__col -->
-                        @endforeach
-                    </div><!-- /o-grid -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
-
-    <!-- ################################ -->
-    <!-- ############ HEADER ############ -->
-    <!-- ################################ -->
+    <!-- ####################################### -->
+    <!-- ############## WORLDWIDE ############## -->
+    <!-- ####################################### -->
     <section class="o-section t-section">
         <div class="o-section__header-bg  t-section__header"></div>
         <div class="o-section__content-bg  t-section__content"></div>
@@ -495,23 +489,62 @@
                 <header class="o-section__header  t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Organisations
+                            Organizations
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Happy times!
+                            Worldwide organizations.
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
                 <div class="o-section__content  t-section__content  ">
                     <div class="o-grid">
-                        @foreach ($organisations as $organisation)
+                       @foreach ($worldwide as $organization)
                             <div class="o-grid__col-md-4  o-grid__col-sm-6">
                                 <div class="o-content">
                                     <hr class="c-deco-line  t-primary-color-line" />
                                     <div class="o-content__body">
-                                        <h3>{{ $organisation['company'] }}</h3>
+                                        <h3><a href="{{ $organization['href'] }}">{{ $organization['company'] }}</a></h3>
                                         <p>
-                                            {{ $organisation['details'] }}
+                                            {{ $organization['details'] }}
+                                        </p>
+                                    </div>
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
+                        @endforeach
+                    </div><!-- /o-grid -->
+                </div><!-- /o-section__content -->
+            </div><!-- /o-section__container -->
+        </div><!-- /o-container -->
+    </section>
+
+    <!-- ####################################### -->
+    <!-- ############ ORGANISATIONS ############ -->
+    <!-- ####################################### -->
+    <section class="o-section t-section">
+        <div class="o-section__header-bg  t-section__header"></div>
+        <div class="o-section__content-bg  t-section__content"></div>
+        <div class="o-container">
+            <div class="o-section__container">
+                <header class="o-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="o-section__heading">
+                            Organizations I have
+                        </h2>
+                        <div class="o-content__body  o-section__description">
+                            Github organizations.
+                        </div>
+                    </div>
+                </header><!-- /o-section__header -->
+                <div class="o-section__content  t-section__content  ">
+                    <div class="o-grid">
+                        @foreach ($organizations as $organization)
+                            <div class="o-grid__col-md-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <hr class="c-deco-line  t-primary-color-line" />
+                                    <div class="o-content__body">
+                                        <h3><a href="{{ $organization['href'] }}">{{ $organization['company'] }}</a></h3>
+                                        <p>
+                                            {{ $organization['details'] }}
                                         </p>
                                     </div>
                                 </div><!-- /o-content -->
@@ -534,10 +567,10 @@
                 <header class="o-section__header  t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Clients
+                            Clients I have
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Happy people.
+                            Happy customers.
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -551,6 +584,11 @@
                         <li>
                             <a href="https://play.google.com" target="_blank">
                                 <img src="assets/images/clients/playstore-logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://themeforest.net" target="_blank">
+                                <img src="assets/images/clients/themeforest-logo.png" alt="">
                             </a>
                         </li>
                     </ul><!-- /o-float-box -->
@@ -573,7 +611,7 @@
                             Contact
                         </h2>
                         <div class="o-content__body  o-section__description">
-                            Call me, maybe.
+                            Reach me out.
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -583,25 +621,11 @@
                             <div class="o-grid__col-md-3  o-grid__col-sm-6">
                                 <div class="o-content">
                                     <div class="o-content__body">
-                                        <a href="https://www.google.com/maps/place/{{ $location }}" target="_blank" class="t-link-container">
-                                            <h4>Location</h4>
-                                            <address>
-                                                <span class="t-link-container__item--blended">
-                                                    {{ $location }}
-                                                </span>
-                                            </address>
-                                        </a><!-- /o-link-container -->
-                                    </div>
-                                </div><!-- /o-content -->
-                            </div><!-- /o-grid__col -->
-                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-content__body">
-                                        <a href="tel:{{ $tel }}" target="_blank" class="t-link-container">
-                                            <h4>Phone</h4>
+                                        <a href="mailto:{{ $email }}" target="_blank" class="t-link-container">
+                                            <h4>Email</h4>
                                             <p>
                                                 <span class="t-link-container__item--blended">
-                                                    {{ $tel }}
+                                                    {{ $email }}
                                                 </span>
                                             </p>
                                         </a><!-- /o-link-container -->
@@ -611,7 +635,7 @@
                             <div class="o-grid__col-md-3  o-grid__col-sm-6">
                                 <div class="o-content">
                                     <div class="o-content__body">
-                                        <a href="http://{{ $website }}" target="_blank" class="t-link-container">
+                                        <a href="https://{{ $website }}" target="_blank" class="t-link-container">
                                             <h4>Web</h4>
                                             <p>
                                                 <span class="t-link-container__item--blended">
@@ -625,13 +649,13 @@
                             <div class="o-grid__col-md-3  o-grid__col-sm-6">
                                 <div class="o-content">
                                     <div class="o-content__body">
-                                        <a href="mailto:{{ $email }}" target="_blank" class="t-link-container">
-                                            <h4>Email</h4>
-                                            <p>
+                                        <a href="https://www.google.com/maps/place/{{ $location }}" target="_blank" class="t-link-container">
+                                            <h4>Location</h4>
+                                            <address>
                                                 <span class="t-link-container__item--blended">
-                                                    {{ $email }}
+                                                    {{ $location }}
                                                 </span>
-                                            </p>
+                                            </address>
                                         </a><!-- /o-link-container -->
                                     </div>
                                 </div><!-- /o-content -->

@@ -62,35 +62,40 @@ return [
     'lastname' => 'Essyd',
     'email' => 'mail.sayf@yahoo.com',
     'location' => 'Ariana, TN',
-    'header' => "Self-Employed Software Engineer",
-    'website' => 'sayfessyd.com',
-    'about' => "I have worked on several projects since June 2014 as a self-employed full stack developer trying to enhance my own skills and discover many technologies, especially the web's ecosystem which still growing day by day until now. I am the author of an image editor called Lollipop that has reached almost 200 sales on CodeCanyon as a 5-star product, and also many open source projects on Github.",
-    'about_b' => "I have always been interested in creating beautiful products that can have great impacts. I created my first baby (i.e., product) in 2015, it was a challenge that motivates me as a student of computer science to create a software product that can compete with other products founded by software development companies. I have much learned from this experience since I solved many technical problems and discovered many technologies during the development process.",
-    'about_c' => "I am open to any roles that can be opportunities to improve my career. I plan to join big companies in the world as a software engineer after graduating.",
-    'tel' => "+216.50.465.281",
+    'header' => "Independent Software Engineer",
+    'website' => 'www.sayfessyd.com',
+    'about' => "I'm <a href='https://twitter.com/sayfessyd'>@sayfessyd</a>, an independent software engineer. </br></br> I share about making software products through my articles; you can follow me on <a href='https://twitter.com/sayfessyd'>Twitter</a>, <a href='https://medium.com/@sayfessyd'>Medium</a>, and <a href='https://dev.to/sayfessyd'>DEV</a> for up-to-date content and updates about my progress. </br></br> In October 2015, I released my first <a href='https://www.producthunt.com/posts/lollipop-2-0'>baby</a> (i.e., product) which is a paid software for editing images. Today, I'm working on creating Frontend/DevOps paid stuff. </br></br> Outside of developing software, I enjoy playing the piano.",
+
     'experiences' => [
-        ['title' => 'Full Stack Developer', 'time' => "2014 - Present", 'company' => 'Self-Employed', 'details' => 'I have worked as a self-employed full stack developer in parallel of my studies since June 2014.', 'location'=>'Ariana, TN'],
-        ['title' => 'Full Stack Developer', 'time' => "2016", 'company' => 'BNA Bank', 'details' => 'I joined BNA Bank (a local bank in Tunisia) team as a full stack developer to work on a Java EE web application that allows the management of promissory notes. It was in the frame of an internship mission.', 'location'=>'Tunis, TN'],
+        ['title' => 'Software Engineer', 'time' => "2014 - Present", 'company' => 'Independent', 'details' => 'Worked on several software projects since June 2014 as a self-employed full stack developer. Developing frontend/backend software products and some DevOps scripts for deployment purposes.', 'location' => 'Ariana, TN'],
+        ['title' => 'Software Engineer', 'time' => "2019 - Present", 'company' => 'Be-softilys', 'details' => 'Developed a system that allows logs management with Blockchain technology. Working on a software product using Spring Boot and Angular technologies. Developing a number of DevOps scripts.', 'location' => 'Lac 3, TN'],
+        ['title' => 'Software Engineer', 'time' => "2019 - Present", 'company' => 'Widgetic', 'details' => 'Work on embed interactive widgets for potential customers. Create applications for the no-code community available on a software marketplace for non-coders.', 'location' => 'Remote, WLD'],
     ],
     'expertise' => [
-        ['name' => 'PHP', 'details' => 'I have 4 years of experience in PHP with almost 4 projects. Two of them were built with Laravel and the rest with native PHP.'],
-        ['name' => 'Javascript', 'details' => 'I have 4 years of experience in Javascript. I have done much work using many Javascript libraries.'],
-        ['name' => 'Java EE', 'details' => 'I have 2 years of experience on Java EE platform with almost 2 projects. One of them was built with Spring Framework and the rest with native Java.'],
-        ['name' => 'Node.js', 'details' => 'I have a small experience in Node.js with almost 1 small project built with Express.js.'],
-        ['name' => 'ASP.NET', 'details' => 'I have a small experience on ASP.NET platform with almost 5 small projects.'],
-        ['name' => 'Android', 'details' => 'I have a small experience in Android development with almost 1 small project.']
+        ['name' => 'Frontend', 'details' => 'Responsible for implementing visual and interactive elements. Use Vue.js, Angular, and Svelte as front-end frameworks in recent projects.'],
+        ['name' => 'DevOps', 'details' => 'Use Docker and Ansible to create DevOps scripts for deploying third-party applications. Use Gitlab CI, Travis CI as continuous integration tools.'],
+        ['name' => 'Backend', 'details' => 'Responsible for implementing server-side application logic. Use Spring Boot, Laravel and Express.js as backend frameworks in recent projects.'],
+        ['name' => 'Testing', 'details' => 'Responsible for creating unit and integration tests. Use JUnit, Karma, and Nightwatch for testing backend and frontend applications.'],
+        ['name' => 'Mobile', 'details' => 'Responsible for creating mobile interfaces and modeling backend services. Create mobile applications using the hybrid, cross-platform, or native approach.'],
+        ['name' => 'Blockchain', 'details' => 'Responsible for developing and maintaining decentralized applications. Use BigchainDB, Tendermint, MongoDB as high-level modules to implement Blockchain systems.'],
+        ['name' => 'Machine Learning', 'details' => 'Responsible for designing and developing machine learning and deep learning systems. Use Tensorflow.js as a high-level framework for training models.'],
+        ['name' => 'Architecture', 'details' => 'Make high-level design choices and tries to enforce technical standards, including software coding standards, tools, and platforms.']
     ],
-    'organisations' => [
-        ['title' => 'IEEE Member', 'time' => "2016", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'location'=>'Ariana'],
+    'worldwide' => [
+        ['href' => 'https://www.ieee.org', 'title' => 'IEEE Member', 'time' => "2016", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'location'=>'Ariana']
+    ],
+    'organizations' => [
+        ['href' => 'https://www.specialappdev.team', 'company' => 'SpecialAppDev', 'details' => "Our team focus on creating innovative Hybrid applications, JavaScript plugins, PHP platforms, and WooCommerce themes."],
+        ['href' => 'https://github.com/assmajs', 'company' => 'Assma.js', 'details' => "Compared to Angular, React, and Vue, it combines all the positive aspects of these popular libraries into one small package."],
     ],
     'projects' => [
         ['title' => 'Message.Me', 'description' => "MessageMe is a social media script, the ONLY ONE of its kind based on anonymous messages and built on top of Laravel 5.4 with all possible features.", 'url' => "https://codecanyon.net/item/messageme-laravel-anonymous-social-media-script/22280893", 'image' => 'messageme.jpg'],
-        ['title' => 'Lollipop 2.0 (Premium Software / jQuery plugin)', 'description' => "Lollipop 2.0 is built using the latest HTML5, CSS3 and JavaScript techniques and tools.", 'url' => "https://codecanyon.net/item/lollipop-image-editor/12957420", 'image' => 'lollipop.jpg'],
+        ['title' => 'Lollipop 2.0 (Premium Software / JavaScript plugin)', 'description' => "Lollipop 2.0 is built using the latest HTML5, CSS3, and JavaScript techniques/tools.", 'url' => "https://codecanyon.net/item/lollipop-image-editor/12957420", 'image' => 'lollipop.jpg'],
     ],
     'education' => [
-        ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019', 'location' => 'Ariana, TN', 'details' => "After getting my licentiate degree, I have chosen to continue my studies in software engineering to obtain my engineer degree."],
-        ['title' => "Licentiate's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016', 'location' => 'Ariana, TN', 'details' => "In 2016, I got my licentiate degree in computer systems from the Higher Institute Of Computer Science."],
-        ['title' => "Bachelor's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2012 - 2013', 'location' => 'Menzel Bourguiba, TN', 'details' => "In 2013, I got my bachelor degree (School Baccalaureate) in natural sciences."]
+        ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019', 'location' => 'Ariana, TN', 'details' => "Took courses in programming language theory, information theory, complexity theory, probability, computer architecture, distributed computing, computer networks, artificial intelligence, operating systems, software design, software development."],
+        ['title' => "Licentiate's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016', 'location' => 'Ariana, TN', 'details' => "Took courses in algorithm design, operating systems, introduction to software engineering, programming on the web, introduction to databases, introduction to computer networks."],
+        ['title' => "School Baccalaureate's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2012 - 2013', 'location' => 'Menzel Bourguiba, TN', 'details' => "Took courses in natural sciences, mathematics, physics, chemistry, literature."]
     ],
     'profiles' => [
         'linkedin' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4',
@@ -105,20 +110,18 @@ return [
         'blog' => 'https://codebase.sayfessyd.com'
     ],
     'skills' => [
-        ['title' => 'PHP7 & Laravel', 'level' => '90', 'count' => '2'],
-        ['title' => 'ES6 & Vue.js', 'level' => '80', 'count' => '2'],
-        ['title' => 'ES5 & jQuery & AngularJS', 'level' => '80', 'count' => '3'],
-        ['title' => 'HTML5 & CSS3 & PostCSS', 'level' => '70', 'count' => '3'],
-        ['title' => 'Yarn & Gulp & Webpack', 'level' => '70', 'count' => '3'],
-        ['title' => 'Bootstrap & Foundation & PrimeFaces & Bulma & TailwindCSS', 'level' => '70', 'count' => '5'],
-        ['title' => 'Pug & Stylus & Sass', 'level' => '70', 'count' => '3'],
-        ['title' => 'Spring & Hibernate & JSF & Struts', 'level' => '70', 'count' => '4'],
-        ['title' => 'Express.js & Socket.io', 'level' => '60', 'count' => '2'],
-        ['title' => 'ASP.NET MVC & Web API & Web Forms', 'level' => '60', 'count' => '3'],
-        ['title' => 'Prestashop', 'level' => '60', 'count' => '1'],
-        ['title' => 'Android Studio', 'level' => '60', 'count' => '1'],
-        ['title' => 'Adobe Photoshop & After Effects', 'level' => '60', 'count' => '2'],
-        ['title' => 'Apache Cordova & OnsenUI', 'level' => '60', 'count' => '2'],
-        ['title' => 'Ableton Live & Kontakt', 'level' => '60', 'count' => '2'],
+        ['title' => 'Vue.js & Angular & Svelte', 'level' => '90', 'count' => '3'],
+        ['title' => 'Java & Spring Boot', 'level' => '80', 'count' => '2'],
+        ['title' => 'JavaScript & jQuery', 'level' => '80', 'count' => '2'],
+        ['title' => 'PHP & Laravel', 'level' => '80', 'count' => '2'],
+        ['title' => 'AngularJS & Ember.js', 'level' => '70', 'count' => '2'],
+        ['title' => 'HTML & Pug & Nunjucks', 'level' => '70', 'count' => '3'],
+        ['title' => 'Bootstrap & PrimeFaces', 'level' => '70', 'count' => '2'],
+        ['title' => 'CSS & Sass & Stylus', 'level' => '70', 'count' => '3'],
+        ['title' => 'Wordpress & Woocommerce', 'level' => '70', 'count' => '2'],
+        ['title' => 'Node.js & Express.js & Socket.io', 'level' => '60', 'count' => '3'],
+        ['title' => 'BigchainDB & Tensorflow.js', 'level' => '60', 'count' => '3'],
+        ['title' => 'Android & Apache Cordova', 'level' => '60', 'count' => '2'],
+        ['title' => 'VB & ASP.NET', 'level' => '60', 'count' => '2'],
     ],
 ];
