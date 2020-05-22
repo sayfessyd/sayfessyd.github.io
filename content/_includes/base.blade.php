@@ -19,10 +19,10 @@
         <link rel="stylesheet" href="assets/css/themes.light.css">
         <link rel="stylesheet" href="assets/css/themes.dark.css">
         <!-- FontAwesome -->
-        <link rel="stylesheet" href="assets/vendor/fontawesome-free-5.9.0-web/css/all.min.css">
+        <link rel="stylesheet" href="assets/lib/fontawesome-free-5.9.0-web/css/all.min.css">
         <!-- Nivo Lightbox-->
-        <link rel="stylesheet" href="assets/vendor/nivo-lightbox/nivo-lightbox.css" />
-        <link rel="stylesheet" href="assets/vendor/nivo-lightbox/themes/default/default.css" />
+        <link rel="stylesheet" href="assets/lib/nivo-lightbox/nivo-lightbox.css" />
+        <link rel="stylesheet" href="assets/lib/nivo-lightbox/themes/default/default.css" />
     </head>
 
     <body>
@@ -38,13 +38,13 @@
         <!-- Google Api -->
         <script src="https://apis.google.com/js/api.js"></script>
         <!-- jQuery -->
-        <script src="assets/vendor/jquery.min.js"></script>
+        <script src="assets/lib/jquery.min.js"></script>
         <!-- dense.js (Retina plugin) -->
-        <script src="assets/vendor/dense.js"></script>
+        <script src="assets/lib/dense.js"></script>
         <!-- Nivo Lightbox -->
-        <script src="assets/vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
+        <script src="assets/lib/nivo-lightbox/nivo-lightbox.min.js"></script>
         <!-- ScrollReveal -->
-        <script src="assets/vendor/scrollreveal.min.js"></script>
+        <script src="assets/lib/scrollreveal.min.js"></script>
         <!-- Api JS -->
         <script src="assets/js/api.js"></script>
         <!-- Main JS -->

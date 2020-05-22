@@ -1,12 +1,11 @@
 {
-  "name": "themsaid/katana",
-  "description": "A neat static site & blog generator with markdown support.",
+  "name": "sayfessyd/sayfessyd.github.io",
+  "description": "A personal static website.",
   "keywords": ["flat-file","cms","static","site","generator","markdown","blade"],
-  "license": "MIT",
   "authors": [
     {
-      "name": "Mohamed Said",
-      "email": "themohamedsaid@gmail.com"
+      "name": "Sayf Essyd",
+      "email": "mail.sayf@yahoo.com"
     }
   ],
   "require": {

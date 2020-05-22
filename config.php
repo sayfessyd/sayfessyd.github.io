@@ -57,7 +57,7 @@ return [
      *
      */
     'siteName' => 'Sayf Essyd',
-    'siteDescription' => 'Yet another awesome site.',
+    'siteDescription' => 'A personal static website.',
     'firstname' => 'sayf',
     'lastname' => 'Essyd',
     'email' => 'mail.sayf@yahoo.com',
@@ -85,7 +85,7 @@ return [
         ['href' => 'https://www.ieee.org', 'title' => 'IEEE Member', 'time' => "2016", 'company' => 'IEEE Tunisia Section', 'details' => "A member of the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.", 'location'=>'Ariana']
     ],
     'organizations' => [
-        ['href' => 'https://www.specialappdev.team', 'company' => 'SpecialAppDev', 'details' => "Our team focus on creating innovative Hybrid applications, JavaScript plugins, PHP platforms, and WooCommerce themes."],
+        ['href' => 'https://github.com/specialappdev', 'company' => 'SpecialAppDev', 'details' => "Our team focus on creating innovative Hybrid applications, JavaScript plugins, PHP platforms, and WooCommerce themes."],
         ['href' => 'https://github.com/assmajs', 'company' => 'Assma.js', 'details' => "Compared to Angular, React, and Vue, it combines all the positive aspects of these popular libraries into one small package."],
     ],
     'projects' => [
