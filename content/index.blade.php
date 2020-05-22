@@ -173,7 +173,7 @@
                         </div><!-- /o-grid__col -->
                         <div class="o-grid__col-xl-4 o-grid__col-sm-6">
                             <div class="o-content">
-                                <a href="{{ $profiles['play'] }}" target="_blank" class="t-link-container">
+                                <a href="{{ $profiles['soundcloud'] }}" target="_blank" class="t-link-container">
                                     <div class="o-media o-media--block">
                                         <div class="o-media__figure">
                                             <div class="c-profile__icon">
@@ -196,7 +196,7 @@
                         </div><!-- /o-grid__col -->
                         <div class="o-grid__col-xl-4 o-grid__col-sm-6">
                             <div class="o-content">
-                                <a href="{{ $profiles['github'] }}" target="_blank" class="t-link-container">
+                                <a href="{{ $profiles['instagram'] }}" target="_blank" class="t-link-container">
                                     <div class="o-media o-media--block">
                                         <div class="o-media__figure">
                                             <div class="c-profile__icon">

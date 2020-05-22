@@ -106,6 +106,7 @@ return [
         'codecanyon' => 'https://codecanyon.net/user/specialapp/portfolio',
         'play' => 'https://play.google.com/store/apps/developer?id=SpecialAppDev',
         'instagram' => 'https://www.instagram.com/sayfessyd',
+        'soundcloud' => 'https://soundcloud.com/sayfessyd',
         'medium' => 'https://medium.com/@sayfessyd',
         'blog' => 'https://codebase.sayfessyd.com'
     ],
