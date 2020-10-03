@@ -88,8 +88,8 @@ return [
     ],
 
     'organizations' => [
-        ['href' => 'https://github.com/specialappdev', 'company' => 'SpecialAppDev', 'details' => "Our team focus on creating innovative Hybrid applications, JavaScript plugins, PHP platforms, and WooCommerce themes."],
-        ['href' => 'https://github.com/assmajs', 'company' => 'Assma.js', 'details' => "Compared to Angular, React, and Vue, it combines all the positive aspects of these popular libraries into one small package."],
+        ['href' => 'https://github.com/specialappdev', 'company' => 'SpecialAppDev', 'details' => "A team that focus on creating innovative software products."],
+        ['href' => 'https://github.com/assmajs', 'company' => 'Assma.js', 'details' => "A progressive JavaScript framework for building efficient and scalable JAMstack apps on the web."],
     ],
 
     'projects' => [
