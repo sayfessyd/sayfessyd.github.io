@@ -12,6 +12,7 @@ elixir(function(mix) {
             './config*.php'
         ])
         .copy('DNS/**', 'public')
+        .copy('files/**', 'public/uploads')
         .browserSync({
             server: {
                 baseDir: 'public'
