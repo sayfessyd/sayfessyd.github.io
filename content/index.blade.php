@@ -111,7 +111,7 @@
                             Intro
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Who the hell am I?
+                            Who am I?
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -142,7 +142,7 @@
                             Platform records
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Notable records.
+                            Notable records
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -237,7 +237,7 @@
                             Products I Made
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Notable products.
+                            Notable products
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -279,7 +279,7 @@
                             Expertise I have
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Software Engineering fields.
+                            Software Engineering fields
                         </div>
                     </div>
                 </header>
@@ -331,7 +331,7 @@
                             I have {{ $sum }} Skills
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Languages and Frameworks skills.
+                            Languages and Frameworks skills
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -377,7 +377,7 @@
                             Experience I have
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Notable experience.
+                            Notable experience
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -431,7 +431,7 @@
                             Education I got
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Computer science fields.
+                            Computer science fields
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -488,7 +488,7 @@
                             Organizations
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Worldwide organizations.
+                            Worldwide organizations
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -525,7 +525,7 @@
                             Organizations I have
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Github organizations.
+                            Github organizations
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -564,7 +564,7 @@
                             Clients I have
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Happy customers.
+                            Happy customers
                         </div>
                     </div>
                 </header><!-- /o-section__header -->
@@ -578,11 +578,6 @@
                         <li>
                             <a href="https://play.google.com" target="_blank">
                                 <img src="assets/images/clients/playstore-logo.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net" target="_blank">
-                                <img src="assets/images/clients/themeforest-logo.png" alt="">
                             </a>
                         </li>
                     </ul><!-- /o-float-box -->
@@ -605,7 +600,7 @@
                             Contact
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Reach me out.
+                            Reach me out
                         </div>
                     </div>
                 </header><!-- /o-section__header -->

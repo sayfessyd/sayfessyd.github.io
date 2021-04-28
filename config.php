@@ -62,7 +62,7 @@ return [
     'lastname' => 'Essyd',
     'email' => 'mail.sayf@yahoo.com',
     'location' => 'Ariana, TN',
-    'header' => "Independent Software Engineer",
+    'header' => "Software Engineer",
     'website' => 'www.sayfessyd.com',
     'about' => "I'm <a href='https://twitter.com/sayfessyd'>@sayfessyd</a>, an independent software engineer. </br></br> I share about making software products through my articles; you can follow me on <a href='https://twitter.com/sayfessyd'>Twitter</a>, <a href='https://medium.com/@sayfessyd'>Medium</a>, and <a href='https://dev.to/sayfessyd'>DEV</a> for up-to-date content and updates about my progress. </br></br> In October 2015, I released my first <a href='https://www.producthunt.com/posts/lollipop-2-0'>baby</a> (i.e., product) which is a paid software for editing images. Today, I'm working on creating Frontend/DevOps paid stuff. </br></br> Outside of developing software, I enjoy playing the piano.",
 
@@ -88,8 +88,8 @@ return [
     ],
 
     'organizations' => [
-        ['href' => 'https://github.com/specialappdev', 'company' => 'SpecialAppDev', 'details' => "A team that focus on creating innovative software products."],
-        ['href' => 'https://github.com/assmajs', 'company' => 'Assma.js', 'details' => "A progressive JavaScript framework for building efficient and scalable JAMstack apps on the web."],
+        ['href' => 'https://github.com/specialappdev', 'company' => 'SpecialApp', 'details' => "Build awesome software products."],
+        ['href' => 'https://github.com/assmajs', 'company' => 'Assma', 'details' => "A progressive JavaScript framework for building efficient and scalable JAMstack apps on the web."],
     ],
 
     'projects' => [
