@@ -1,11 +1,13 @@
-$("#sc-followerCount").text(numeral("31").format('0a'));
-$("#sc-plays").text(numeral("125000").format('+0,0'));
+$("#sc-plays").text(numeral("130000").format('+0,0'));
+$("#sc-followerCount").text(numeral("34").format('0a'));
 
-$.get( "https://www.instagram.com/sayfessyd/?__a=1", function( data ) {
-  $("#ig-followerCount").text(numeral(data["graphql"]["user"]["edge_followed_by"]["count"]).format('0a'));
-  $("#ig-posts").text(numeral(data["graphql"]["user"]["edge_owner_to_timeline_media"]["count"]).format('+0,0'));
-});
+// $.get( "https://www.instagram.com/sayfessyd/?__a=1", function( data ) {
+//   $("#ig-followerCount").text(numeral(data["graphql"]["user"]["edge_followed_by"]["count"]).format('0a'));
+//   $("#ig-posts").text(numeral(data["graphql"]["user"]["edge_owner_to_timeline_media"]["count"]).format('+0,0'));
+// });
 
+$("#ig-posts").text(numeral("39").format('+0,0'));
+$("#ig-followerCount").text(numeral("207").format('0a'));
 function execute() {
   return gapi.client.youtube.channels.list({
     "part": 'statistics',
@@ -13,8 +15,8 @@ function execute() {
   })
   .then(
         function(response) {
+          $("#yt-views").text(numeral(parseInt(response["result"]["items"][0]["statistics"]["viewCount"]) + 126017).format('+0,0'));
           $("#yt-subscriberCount").text(numeral(response["result"]["items"][0]["statistics"]["subscriberCount"]).format('0.0a'));
-          $("#yt-views").text(numeral(response["result"]["items"][0]["statistics"]["viewCount"]).format('+0,0'));
         },
         function(err) {
           console.error("Execute error", err);
