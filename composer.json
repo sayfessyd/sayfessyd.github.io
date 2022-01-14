@@ -1,0 +1,15 @@
+{
+  "name": "sayfessyd/sayfessyd.github.io",
+  "description": "A personal static website.",
+  "keywords": ["flat-file","cms","static","site","generator","markdown","blade"],
+  "authors": [
+    {
+      "name": "Sayf Essyd",
+      "email": "mail.sayf@yahoo.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "themsaid/katana-core": "1.*"
+  }
+}
