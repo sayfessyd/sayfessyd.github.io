@@ -15,8 +15,8 @@
         </a>
     </li>
     <li class="a-{{ $mode }}">
-        <a href="{{ $profiles['twitter'] }}" target="_blank" class="c-social-button t-social-button">
-            <i class="fa-icon fab fa-lg fa-twitter"></i>
+        <a href="{{ $profiles['linkedin'] }}" target="_blank" class="c-social-button t-social-button">
+            <i class="fa-icon fab fa-lg fa-linkedin-in"></i>
         </a>
     </li>
     <li class="a-{{ $mode }}">
