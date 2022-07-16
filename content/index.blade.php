@@ -11,14 +11,14 @@
             <div class="o-container">
                 <div class="o-section__container">
                     <header class="o-section__header c-header__header t-section__header">
-                        <div class="c-header__inner-header">
+                        <!-- <div class="c-header__inner-header">
                             <div class="c-header__avatar">
                                 <div class="a-header c-avatar">
                                     <img class="c-avatar__img" src="assets/images/profile/profile.jpg" alt="">
-                                </div><!-- /c-avatar -->
-                            </div><!-- /c-header-avatar -->
-                        </div><!-- /c-header__inner-header -->
-                    </header><!-- /o-section__header -->
+                                </div>
+                            </div>
+                        </div> -->
+                    </header>
                     <div class="o-section__content c-header__content t-section__content">
                         <div class="c-header__inner-content">
                             <div class="c-header__top">
@@ -39,10 +39,10 @@
                                                 {{ $header }}
                                             </span>
                                         </h2>
-                                    </div><!-- /c-brand -->
-                                </div><!-- /c-header__brand -->
+                                    </div>
+                                </div>
                                 @include('_shared.social', ['mode' => 'header'])
-                            </div><!-- /c-header__top -->
+                            </div>
                             <div class="c-header__contact">
                                 <hr class="a-header c-header__contact-divider" />
                                 <div class="o-grid">
@@ -56,10 +56,10 @@
                                                             {{ $email }}
                                                         </span>
                                                     </p>
-                                                </a><!-- /o-link-container -->
+                                                </a>
                                             </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
+                                        </div>
+                                    </div>
                                     <div class="o-grid__col-md-3 o-grid__col-sm-6">
                                         <div class="a-header o-content">
                                             <div class="o-content__body">
@@ -70,18 +70,18 @@
                                                             {{ $location }}
                                                         </span>
                                                     </address>
-                                                </a><!-- /o-link-container -->
+                                                </a>
                                             </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
-                                </div><!-- /o-grid -->
-                            </div><!-- /c-header__contact -->
-                        </div><!-- /c-header__inner-content -->
-                    </div><!-- /o-section__content -->
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-        </div><!-- /c-header -->
-    </section><!-- /o-section -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ################################ -->
     <!-- ############ INTRO ############# -->
@@ -100,7 +100,7 @@
                             Who am I?
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content  ">
                     <div class="o-content">
                         <div class="c-intro">
@@ -109,10 +109,10 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ################################ -->
     <!-- ########### PORTFOLIO ########## -->
@@ -131,7 +131,7 @@
                             Notable products
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content o-section__full-bottom-space">
                     <div class="o-grid o-grid--gallery">
                         @foreach($projects as $project)
@@ -148,13 +148,13 @@
                                         </p>
                                     </div>
                                 </a>
-                            </div><!-- /o-grid__col -->
+                            </div>
                         @endforeach
-                    </div><!-- /o-grid -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ################################ -->
     <!-- ############ SKILLS ############ -->
@@ -179,7 +179,7 @@
                             Languages and Frameworks skills
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content">
                     <div class="o-grid">
                         @foreach ($skills as $skill)
@@ -199,13 +199,13 @@
                                         <div class="a-progress-bar c-progress-bar__filler t-primary-bg" data-percent="{{ $skill['level'] }}"></div>
                                     </div>
                                 </div>
-                            </div><!-- /o-grid__col -->
+                            </div>
                         @endforeach
-                    </div><!-- /o-grid -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     @endif
 
     <!-- ################################ -->
@@ -225,7 +225,7 @@
                             Notable experience
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content u-pb-0">
                     <div class="a-experience-timeline c-timeline t-border-color">
                         @foreach ($experiences as $experience)
@@ -252,15 +252,15 @@
                                                 {{ $experience['details'] }}
                                             </p>
                                         </div>
-                                    </div><!-- /o-grid -->
-                                </div><!-- /o-content -->
-                            </div><!-- /c-timeline__item -->
+                                    </div>
+                                </div>
+                            </div>
                         @endforeach
-                    </div><!-- /c-timeline -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ################################ -->
     <!-- ########### EDUCATION ########## -->
@@ -279,7 +279,7 @@
                             Computer science fields
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content u-pt-0">
                     <div class="o-content">
                         <div class="a-education-timeline c-timeline t-border-color o-section__full-top-space">
@@ -308,16 +308,16 @@
                                                     {{ $e['details'] }}
                                                 </p>
                                             </div>
-                                        </div><!-- /o-grid -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /c-timeline__item -->
+                                        </div>
+                                    </div>
+                                </div>
                             @endforeach
-                        </div><!-- /c-timeline -->
-                    </div><!-- /o-content -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ################################# -->
     <!-- #### WORLDWIDE ORGANISATIONS #### -->
@@ -337,7 +337,7 @@
                             Worldwide organizations
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content">
                     <div class="o-grid">
                        @foreach ($organizations as $organization)
@@ -348,14 +348,14 @@
                                         <h3><a href="{{ $organization['href'] }}">{{ $organization['company'] }}</a></h3>
                                         <p>{{ $organization['details'] }}</p>
                                     </div>
-                                </div><!-- /o-content -->
-                            </div><!-- /o-grid__col -->
+                                </div>
+                            </div>
                         @endforeach
-                    </div><!-- /o-grid -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     @endif
 
     <!-- ################################ -->
@@ -375,7 +375,7 @@
                             Happy customers
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content">
                     <ul class="c-clients o-content">
                         <li>
@@ -388,11 +388,11 @@
                                 <img src="assets/images/clients/playstore-logo.png" alt="">
                             </a>
                         </li>
-                    </ul><!-- /o-float-box -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ################################ -->
     <!-- ############ FOOTER ############ -->
@@ -411,7 +411,7 @@
                             Reach me out
                         </div>
                     </div>
-                </header><!-- /o-section__header -->
+                </header>
                 <div class="o-section__content t-section__content  ">
                         <div class="c-footer__contact">
                             <div class="o-grid">
@@ -425,10 +425,10 @@
                                                         {{ $email }}
                                                     </span>
                                                 </p>
-                                            </a><!-- /o-link-container -->
+                                            </a>
                                         </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
+                                    </div>
+                                </div>
                                 <div class="o-grid__col-md-3 o-grid__col-sm-6">
                                     <div class="o-content">
                                         <div class="o-content__body">
@@ -439,12 +439,12 @@
                                                         {{ $location }}
                                                     </span>
                                                 </address>
-                                            </a><!-- /o-link-container -->
+                                            </a>
                                         </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-                            </div><!-- /o-grid -->
-                        </div><!-- /c-footer__contact -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <hr class="c-footer__contact-divider" />
                         <div class="o-content">
                             <div class="c-footer__bottom">
@@ -461,14 +461,14 @@
                                                     </span>
                                                 </span>
                                             </h1>
-                                        </div><!-- /o-content__body -->
-                                    </div><!-- /c-brand -->
-                                </div><!-- /c-footer__brand -->
+                                        </div>
+                                    </div>
+                                </div>
                                 @include('_shared.social', ['mode' => 'footer'])
-                            </div><!-- /c-footer__bottom -->
-                        </div><!-- /o-content -->
-                </div><!-- /o-section__content -->
-            </div><!-- /o-section__container -->
-        </div><!-- /o-container -->
-    </section><!-- /o-section -->
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @stop
