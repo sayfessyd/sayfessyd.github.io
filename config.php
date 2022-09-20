@@ -68,8 +68,8 @@ return [
 
     'experiences' => [
         ['title' => 'Software Engineer', 'time' => "2019 - Present", 'company' => 'be ys Software', 'details' => 'Solved front-end technical challenges. Built an authentication system based on the OAuth standard. Worked on a software product for securing documents. Created a solution that uses blockchain technology for log management.', 'location' => 'Tunisia'],
-        ['title' => 'Author', 'time' => "2021 - Present", 'company' => 'Educative, Inc.', 'details' => 'Authored courses on a fast-growing e-learning platform for professional software developers and engineers. Created a course on how to build a front-end framework in its initial stages. Developed core modules for educational purposes.', 'location' => ''],
-        ['title' => 'Software Developer', 'time' => "2015 - 2018", 'company' => 'Envato Author Community', 'details' => 'Developed client-side plugins and social media platforms that have been sold exclusively on Envato. Created a social media platform for anonymous messaging with all possible features. Built an image editor based on web technologies.', 'location' => ''],
+        ['title' => 'Author', 'time' => "2021 - Present", 'company' => 'Educative, Inc.', 'details' => 'Authored courses on a fast-growing e-learning platform for professional software developers and engineers. Created a course on how to build a front-end framework in its initial stages. Developed core modules for educational purposes.', 'location' => 'Remote'],
+        ['title' => 'Software Developer', 'time' => "2015 - 2018", 'company' => 'Envato Author Community', 'details' => 'Developed client-side plugins and social media platforms that have been sold exclusively on Envato. Created a social media platform for anonymous messaging with all possible features. Built an image editor based on web technologies.', 'location' => 'Remote'],
     ],
 
     'expertise' => [
