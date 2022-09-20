@@ -67,11 +67,9 @@ return [
     'about' => "A frontend-focus software engineer. I share about making software products through my articles; you can follow me on <a href='https://indieweb.social/web/@sayfessyd'>Mastodon</a>, <a href='https://medium.com/@sayfessyd'>Medium</a>, and <a href='https://dev.to/sayfessyd'>DEV</a> for up-to-date content and updates about my progress. In October 2015, I released my first <a href='https://www.producthunt.com/posts/lollipop-2-0'>baby</a> (i.e., product) which is a paid software for editing images. Outside of developing software, I enjoy playing the piano.",
 
     'experiences' => [
-        ['title' => 'Technical Referent', 'time' => "2019 - Present", 'company' => 'be ys Software', 'details' => 'Responsible for developing an authentication system based on OAuth standards. Working on a software product using Spring Boot and Angular technologies. Developing DevOps scripts for deployment purposes. Developed a system that allows logs management with Blockchain technology.', 'location' => 'Tunisia'],
-        ['title' => 'Author', 'time' => "2021 - Present", 'company' => 'Educative, Inc.', 'details' => 'Authoring courses on a fast-growing e-learning platform for professional software developers and engineers.', 'location' => 'Remote'],
-        ['title' => 'Technical Writer', 'time' => "2021 - Present", 'company' => 'In Plain English', 'details' => 'Writing a series of articles about JavaScript behind the scenes, to one of the top Medium publications.', 'location' => 'Remote'],
-        ['title' => 'Author', 'time' => "2019 - 2020", 'company' => 'Widgetic', 'details' => 'Create applications for the no-code community available on a software marketplace for non-coders.', 'location' => 'Remote'],
-        ['title' => 'Software Developer', 'time' => "2015 - 2018", 'company' => 'Envato Author Community', 'details' => 'Developed client-side plugins and social media platforms that have been sold exclusively on Envato.', 'location' => 'Remote'],
+        ['title' => 'Software Engineer', 'time' => "2019 - Present", 'company' => 'be ys Software', 'details' => 'Solved front-end technical challenges. Built an authentication system based on the OAuth standard. Worked on a software product for securing documents. Created a solution that uses blockchain technology for log management.', 'location' => 'Tunisia'],
+        ['title' => 'Author', 'time' => "2021 - Present", 'company' => 'Educative, Inc.', 'details' => 'Authored courses on a fast-growing e-learning platform for professional software developers and engineers. Created a course on how to build a front-end framework in its initial stages. Developed core modules for educational purposes.', 'location' => ''],
+        ['title' => 'Software Developer', 'time' => "2015 - 2018", 'company' => 'Envato Author Community', 'details' => 'Developed client-side plugins and social media platforms that have been sold exclusively on Envato. Created a social media platform for anonymous messaging with all possible features. Built an image editor based on web technologies.', 'location' => ''],
     ],
 
     'expertise' => [
@@ -88,17 +86,14 @@ return [
     ],
 
     'education' => [
-        ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019', 'location' => 'Tunisia', 'details' => "Took courses in programming language theory, information theory, complexity theory, probability, computer architecture, distributed computing, computer networks, artificial intelligence, operating systems, software design, software development."],
-        ['title' => "Licentiate's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016', 'location' => 'Tunisia', 'details' => "Took courses in algorithm design, operating systems, introduction to software engineering, programming on the web, introduction to databases, introduction to computer networks."],
-        ['title' => "School Baccalaureate's Degree in Natural Sciences", 'university' => 'Ibn Rochd High School', 'period' => '2009 - 2013', 'location' => 'Tunisia', 'details' => "Took courses in natural sciences, mathematics, physics, chemistry, literature."]
+        ['title' => "Engineer's Degree in Software Engineering", 'university' => 'Higher Institute Of Computer Science', 'period' => '2016 - 2019', 'location' => 'Tunisia', 'details' => "Took courses in programming language theory, information theory, complexity theory, probability, computer architecture, distributed computing, computer networks, artificial intelligence, operating systems, software design, and software development."],
+        ['title' => "Licentiate's Degree in Computer Systems", 'university' => 'Higher Institute Of Computer Science', 'period' => '2013 - 2016', 'location' => 'Tunisia', 'details' => "Took courses in algorithm design, operating systems, introduction to software engineering, programming on the web, introduction to databases, and introduction to computer networks."],
+        ['title' => "School Baccalaureate's Degree in Experimental Science", 'university' => 'Ibn Rushd High School', 'period' => '2009 - 2013', 'location' => 'Tunisia', 'details' => "Took courses in natural sciences, mathematics, physics, chemistry, and literature."]
     ],
 
     'profiles' => [
         'linkedin' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4',
         'github' => 'https://github.com/sayfessyd',
-        'twitter' => 'https://twitter.com/sayfessyd',
-        'codecanyon' => 'https://codecanyon.net/user/specialapp/portfolio',
-        'play' => 'https://play.google.com/store/apps/developer?id=SpecialAppDev',
         'medium' => 'https://medium.com/@sayfessyd',
         'blog' => 'https://codebase.sayfessyd.com'
     ],

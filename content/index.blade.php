@@ -125,10 +125,10 @@
                 <header class="o-section__header t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Products I Made
+                            Portfolio
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Notable products
+                            Products
                         </div>
                     </div>
                 </header>
@@ -219,10 +219,10 @@
                 <header class="o-section__header t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Experience I have
+                            Experience
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Notable experience
+                            Accomplishments
                         </div>
                     </div>
                 </header>
@@ -273,10 +273,10 @@
                 <header class="o-section__header t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Education I got
+                            Education
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Computer science fields
+                            Courses
                         </div>
                     </div>
                 </header>
@@ -369,7 +369,7 @@
                 <header class="o-section__header t-section__header">
                     <div class="o-content">
                         <h2 class="o-section__heading">
-                            Clients I have
+                            Clients
                         </h2>
                         <div class="o-content__body o-section__description">
                             Happy customers
