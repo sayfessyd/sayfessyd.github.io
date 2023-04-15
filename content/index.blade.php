@@ -11,13 +11,15 @@
             <div class="o-container">
                 <div class="o-section__container">
                     <header class="o-section__header c-header__header t-section__header">
-                        <!-- <div class="c-header__inner-header">
+                        @if(false)
+                        <div class="c-header__inner-header">
                             <div class="c-header__avatar">
                                 <div class="a-header c-avatar">
                                     <img class="c-avatar__img" src="assets/images/profile/profile.jpg" alt="">
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                        @endif
                     </header>
                     <div class="o-section__content c-header__content t-section__content">
                         <div class="c-header__inner-content">
@@ -114,6 +116,7 @@
         </div>
     </section>
 
+    @if(false)
     <!-- ################################ -->
     <!-- ########### PORTFOLIO ########## -->
     <!-- ################################ -->
@@ -155,16 +158,17 @@
             </div>
         </div>
     </section>
+    @endif
 
-    <!-- ################################ -->
-    <!-- ############ SKILLS ############ -->
-    <!-- ################################ -->
     @php
         $sum = 0;
         foreach ($skills as $skill)
             $sum += $skill['count'];
     @endphp
     @if(false)
+    <!-- ################################ -->
+    <!-- ############ SKILLS ############ -->
+    <!-- ################################ -->
     <section class="o-section t-section">
         <div class="o-section__header-bg t-section__header"></div>
         <div class="o-section__content-bg t-section__content"></div>
@@ -319,10 +323,10 @@
         </div>
     </section>
 
+    @if(false)
     <!-- ################################# -->
     <!-- #### WORLDWIDE ORGANISATIONS #### -->
     <!-- ################################# -->
-    @if(false)
     <section class="o-section t-section">
         <div class="o-section__header-bg t-section__header"></div>
         <div class="o-section__content-bg t-section__content"></div>
@@ -358,6 +362,7 @@
     </section>
     @endif
 
+    @if(false)
     <!-- ################################ -->
     <!-- ############ CLIENTS ########### -->
     <!-- ################################ -->
@@ -393,6 +398,7 @@
             </div>
         </div>
     </section>
+    @endif
 
     <!-- ################################ -->
     <!-- ############ FOOTER ############ -->

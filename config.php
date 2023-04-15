@@ -92,10 +92,21 @@ return [
     ],
 
     'profiles' => [
-        'linkedin' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4',
-        'github' => 'https://github.com/sayfessyd',
-        'medium' => 'https://medium.com/@sayfessyd',
-        'blog' => 'https://codebase.sayfessyd.com'
+        
+        // ['url' => 'https://www.facebook.com/sayf.music', 'icon' => 'fab fa-facebook-f'],
+        // ['url' => 'https://www.instagram.com/sayfessyd', 'icon' => 'fab fa-instagram'],
+        // ['url' => 'https://www.tiktok.com/@sayfessyd1', 'icon' => 'fab fa-tiktok'],
+        // ['url' => 'https://www.youtube.com/@SayfEssyd', 'icon' => 'fab fa-youtube'],
+        // ['url' => 'https://soundcloud.com/sayfessyd', 'icon' => 'fab fa-soundcloud'],
+        ['url' => 'https://codebase.sayfessyd.com', 'icon' => 'fas fa-blog'],
+        ['url' => 'https://www.reddit.com/user/sayf_essyd', 'icon' => 'fab fa-reddit-alien'],
+        ['url' => 'https://indieweb.social/@sayfessyd', 'icon' => 'fab fa-mastodon'],
+        ['url' => 'https://twitter.com/sayfessyd', 'icon' => 'fab fa-twitter'],
+        ['url' => 'https://medium.com/@sayfessyd', 'icon' => 'fab fa-medium-m'],
+        // ['url' => 'https://www.patreon.com/sayfessyd', 'icon' => 'fab fa-patreon'],
+        ['url' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4', 'icon' => 'fab fa-linkedin-in'],
+        ['url' => 'https://github.com/sayfessyd', 'icon' => 'fab fa-github'],
+        
     ],
 
     'skills' => [
