@@ -57,20 +57,20 @@ return [
      *
      */
     'siteName' => 'Sayf Essyd',
-    'siteDescription' => 'A personal static website.',
+    'siteDescription' => 'My personal static website',
     'firstname' => 'sayf',
     'lastname' => 'Essyd',
     'email' => 'mail.sayf@yahoo.com',
     'location' => 'Tunisia',
     'header' => "Software Engineer",
     'website' => 'sayfessyd.com',
-    'about' => "As a frontend-focus software engineer, I possess a strong passion for creating intuitive and visually stunning web applications that deliver an exceptional user experience. With expertise in HTML, CSS, JavaScript, and a range of front-end frameworks, I have the ability to craft responsive and scalable user interfaces that seamlessly integrate with backend technologies. I enjoy working on challenging projects and tackling technical tasks that push me to think creatively with a passion for understanding how technologies can be leveraged to optimize development processes and streamline workflows.",
+    'about' => "Frontend-focus Software Engineer with over seven years of successful experience in Angular, Vue.js and Vanilla JavaScript. Recognized consistently for performance excellence and contributions to success in front-end development, collaborated on software projects in various industries and business domains.",
 
     'experiences' => [
-        ['title' => 'Frontend Engineer', 'time' => "2023 - Present", 'company' => 'Proxify', 'details' => '', 'location' => 'Remote'],
-        ['title' => 'Software Engineer', 'time' => "2019 - Present", 'company' => 'be ys Software', 'details' => 'As a software engineer, I worked on a software product for securing documents based on Spring Boot and Angular. I built an authentication system that enabled users to access web applications and services with secure ease. Moreover, I created an innovative log management solution that utilized blockchain technology to provide an immutable record of system events.', 'location' => 'Tunisia'],
-        ['title' => 'Author', 'time' => "2021 - Present", 'company' => 'Educative, Inc.', 'details' => 'As a course author for an e-learning platform, I created engaging and informative courses for professional software developers and engineers. I took on the challenge of writing a course on building a front-end framework, providing learners with valuable insights into the development process. Through my experience, I have demonstrated my ability to communicate complex technical concepts in an accessible and engaging manner and to provide valuable educational resources.', 'location' => 'Remote'],
-        ['title' => 'Software Developer', 'time' => "2015 - 2018", 'company' => 'Envato Author Community', 'details' => 'As a software developer, I proved my ability to develop innovative and effective solutions that meet the needs of the software marketplace. I have built client-side plugins and social media platforms exclusively sold on Envato, reflecting my expertise in cutting-edge web technologies. Some of my most notable creations are a social media platform for anonymous messaging and an image editor based on web technologies.', 'location' => 'Remote'],
+        ['title' => 'Frontend Engineer', 'time' => "2023 - Present", 'company' => 'Proxify', 'details' => 'A Swedish-based growing network of talented developers. It matches remote IT professionals with companies in Sweden and abroad.', 'location' => 'Remote'],
+        ['title' => 'Software Engineer', 'time' => "2019 - Present", 'company' => 'be ys Software', 'details' => 'Well-established company with over twenty years of experience. It provides expertise in managing digital identities, handling sensitive data, and ensuring the secure flow of personal information.', 'location' => 'Tunisia'],
+        ['title' => 'Author', 'time' => "2021 - Present", 'company' => 'Educative, Inc.', 'details' => 'Rapidly growing e-learning platform for professional software developers and engineers. It offers interactive courses and currently serves over one million users.', 'location' => 'Remote'],
+        ['title' => 'Software Developer', 'time' => "2015 - 2018", 'company' => 'Envato Author Community', 'details' => 'Online community for creative assets, tools, and talent. With over two million customers annually, it is a world-leading platform in its industry.', 'location' => 'Remote'],
     ],
 
     'expertise' => [
@@ -93,21 +93,12 @@ return [
     ],
 
     'profiles' => [
-        
-        // ['url' => 'https://www.facebook.com/sayf.music', 'icon' => 'fab fa-facebook-f'],
-        // ['url' => 'https://www.instagram.com/sayfessyd', 'icon' => 'fab fa-instagram'],
-        // ['url' => 'https://www.tiktok.com/@sayfessyd1', 'icon' => 'fab fa-tiktok'],
-        // ['url' => 'https://www.youtube.com/@SayfEssyd', 'icon' => 'fab fa-youtube'],
-        // ['url' => 'https://soundcloud.com/sayfessyd', 'icon' => 'fab fa-soundcloud'],
-        ['url' => 'https://codebase.sayfessyd.com', 'icon' => 'fas fa-blog'],
         ['url' => 'https://www.reddit.com/user/sayf_essyd', 'icon' => 'fab fa-reddit-alien'],
         ['url' => 'https://indieweb.social/@sayfessyd', 'icon' => 'fab fa-mastodon'],
         ['url' => 'https://twitter.com/sayfessyd', 'icon' => 'fab fa-twitter'],
         ['url' => 'https://medium.com/@sayfessyd', 'icon' => 'fab fa-medium-m'],
-        // ['url' => 'https://www.patreon.com/sayfessyd', 'icon' => 'fab fa-patreon'],
         ['url' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4', 'icon' => 'fab fa-linkedin-in'],
         ['url' => 'https://github.com/sayfessyd', 'icon' => 'fab fa-github'],
-        
     ],
 
     'skills' => [

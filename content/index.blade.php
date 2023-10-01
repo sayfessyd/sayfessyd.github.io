@@ -226,7 +226,7 @@
                             Experience
                         </h2>
                         <div class="o-content__body o-section__description">
-                            Accomplishments
+                            Work history
                         </div>
                     </div>
                 </header>
