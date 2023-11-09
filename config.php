@@ -95,7 +95,7 @@ return [
     'profiles' => [
         ['url' => 'https://www.reddit.com/user/sayf_essyd', 'icon' => 'fab fa-reddit-alien'],
         ['url' => 'https://indieweb.social/@sayfessyd', 'icon' => 'fab fa-mastodon'],
-        ['url' => 'https://twitter.com/sayfessyd', 'icon' => 'fab fa-twitter'],
+        ['url' => 'https://twitter.com/sayfessyd', 'icon' => 'fab fa-x-twitter'],
         ['url' => 'https://medium.com/@sayfessyd', 'icon' => 'fab fa-medium-m'],
         ['url' => 'https://www.linkedin.com/in/saifeddine-essid-539a32a4', 'icon' => 'fab fa-linkedin-in'],
         ['url' => 'https://github.com/sayfessyd', 'icon' => 'fab fa-github'],
