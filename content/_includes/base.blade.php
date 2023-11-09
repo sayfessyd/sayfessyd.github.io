@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="assets/css/custom.css">
         <!-- Themes -->
         <link rel="stylesheet" href="assets/css/themes.light.css">
-        <link rel="stylesheet" href="assets/css/themes.dark.css">
+        <!-- <link rel="stylesheet" href="assets/css/themes.dark.css"> -->
         <!-- FontAwesome -->
         <link rel="stylesheet" href="assets/lib/fontawesome-free-6.4.2-web/css/all.min.css">
         <!-- Nivo Lightbox-->
